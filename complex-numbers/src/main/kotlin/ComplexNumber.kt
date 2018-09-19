@@ -1,4 +1,3 @@
-import kotlin.math.abs
 data class ComplexNumber(val real: Double = 0.0, val imag: Double = 0.0) {
     operator fun plus(c: ComplexNumber) : ComplexNumber {
         return ComplexNumber(real = this.real + c.real, imag = this.imag + c.imag)
