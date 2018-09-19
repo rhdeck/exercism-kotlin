@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ForthEvaluatorTest" tests="39" skipped="0" failures="0" errors="0" timestamp="2018-09-19T22:48:43" hostname="raymonds-mbp.lan" time="0.064">
+  <properties/>
+  <testcase name="testErrorIfSwappingAttemptedWithOneNumberOnTheStack" classname="ForthEvaluatorTest" time="0.019"/>
+  <testcase name="testOverCopiesTheSecondElementIfThereAreMoreThanTwo" classname="ForthEvaluatorTest" time="0.027"/>
+  <testcase name="testOverCopiesTheSecondElementIfThereAreOnlyTwo" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testErrorIfOveringAttemptedWithNothingOnTheStack" classname="ForthEvaluatorTest" time="0.001"/>
+  <testcase name="testErrorIfAdditionAttemptedWithOneNumberOnTheStack" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testUserDefinedOperatorsCanConsistOfBuiltInOperators" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testErrorIfSwappingAttemptedWithNothingOnTheStack" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testErrorIfSubtractionAttemptedWithNothingOnTheStack" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testDropRemovesTheTopValueOnTheStackIfItIsTheOnlyOne" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testDupCopiesTheTopValueOnTheStack" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testErrorIfDuplicatingAttemptedWithNothingOnTheStack" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testCanRedefineAUserDefinedOperator" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testTwoNumbersCanBeSubtracted" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testThatIntegerDivisionIsUsed" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testSwapSwapsTheTopTwosValueOnTheStackIfTheyAreTheOnlyOnes" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testErrorIfSubtractionAttemptedWithOneNumberOnTheStack" classname="ForthEvaluatorTest" time="0.001"/>
+  <testcase name="testErrorIfOveringAttemptedWithOneNumberOnTheStack" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testErrorIfMultiplicationAttemptedWithOneNumberOnTheStack" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testCombinedAdditionAndSubtraction" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testErrorIfDroppingAttemptedWithNothingOnTheStack" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testErrorIfMultiplicationAttemptedWithNothingOnTheStack" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testErrorIfDivisionAttemptedWithOneNumberOnTheStack" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testDropRemovesTheTopValueOnTheStackIfItIsNotTheOnlyOne" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testErrorIfAdditionAttemptedWithNothingOnTheStack" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testCannotRedefineNumbers" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testErrorIfEvaluatingAnUndefinedOperator2" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testTwoNumbersCanBeMultiplied" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testTwoNumbersCanBeDivided" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testCanOverrideBuiltInArithmeticOperators" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testUserDefinedOperatorsAreEvaluatedInTheCorrectOrder" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testErrorIfDividingByZero" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testErrorIfEvaluatingAnUndefinedOperator" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testSwapSwapsTheTopTwosValueOnTheStackIfTheyAreNotTheOnlyOnes" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testCanOverrideBuiltInWordOperators" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testCombinedMultiplicationAndDivision" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testNumbersAreJustPushedOntoTheStack" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testTwoNumbersCanBeAdded" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testDupParsingIsCaseInsensitive" classname="ForthEvaluatorTest" time="0.0"/>
+  <testcase name="testErrorIfDivisionAttemptedWithNothingOnTheStack" classname="ForthEvaluatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
