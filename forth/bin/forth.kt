@@ -69,7 +69,6 @@ class ForthEvaluator( ) {
                             l.removeAt(l.lastIndex)
                             l.add(oldLast)
                             l.add(newLast)
-                        
                         }
                         "OVER" -> {
                             if(l.size < 2) throw IllegalArgumentException("Overing requires that the stack contain at least 2 values")
