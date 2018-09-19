@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ComplexNumberTest" tests="30" skipped="0" failures="0" errors="0" timestamp="2018-09-19T17:20:45" hostname="raymonds-mbp.lan" time="0.011">
+<testsuite name="ComplexNumberTest" tests="30" skipped="0" failures="0" errors="0" timestamp="2018-09-19T23:31:16" hostname="raymonds-mbp.lan" time="0.009">
   <properties/>
   <testcase name="testConjugationOfNumberWithRealAndImaginaryParts" classname="ComplexNumberTest" time="0.001"/>
   <testcase name="testExponentialOfZero" classname="ComplexNumberTest" time="0.002"/>
-  <testcase name="testConjugationOfPurelyRealNumber" classname="ComplexNumberTest" time="0.001"/>
+  <testcase name="testConjugationOfPurelyRealNumber" classname="ComplexNumberTest" time="0.0"/>
   <testcase name="testDivisionWithRealAndImaginaryParts" classname="ComplexNumberTest" time="0.0"/>
   <testcase name="testAdditionWithPurelyImaginaryNumbers" classname="ComplexNumberTest" time="0.001"/>
   <testcase name="testExponentialOfPurelyRealNumber" classname="ComplexNumberTest" time="0.0"/>
@@ -16,12 +16,12 @@
   <testcase name="testImaginaryUnitExhibitsDefiningProperty" classname="ComplexNumberTest" time="0.0"/>
   <testcase name="testDivisionWithPurelyRealNumbers" classname="ComplexNumberTest" time="0.0"/>
   <testcase name="testAdditionWithRealAndImaginaryParts" classname="ComplexNumberTest" time="0.0"/>
-  <testcase name="testAbsoluteValueOfNegativePurelyRealNumber" classname="ComplexNumberTest" time="0.001"/>
+  <testcase name="testAbsoluteValueOfNegativePurelyRealNumber" classname="ComplexNumberTest" time="0.0"/>
   <testcase name="testRealPartOfPurelyImaginaryNumber" classname="ComplexNumberTest" time="0.0"/>
   <testcase name="testImaginaryPartOfPurelyRealNumber" classname="ComplexNumberTest" time="0.0"/>
   <testcase name="testSubtractionWithRealAndImaginaryParts" classname="ComplexNumberTest" time="0.0"/>
   <testcase name="testSubtractionWithPurelyImaginaryNumbers" classname="ComplexNumberTest" time="0.0"/>
-  <testcase name="testConjugationOfPurelyImaginaryNumber" classname="ComplexNumberTest" time="0.0"/>
+  <testcase name="testConjugationOfPurelyImaginaryNumber" classname="ComplexNumberTest" time="0.001"/>
   <testcase name="testSubtractionWithPurelyRealNumbers" classname="ComplexNumberTest" time="0.0"/>
   <testcase name="testExponentialOfPurelyImaginaryNumber" classname="ComplexNumberTest" time="0.0"/>
   <testcase name="testDivisionWithPurelyImaginaryNumbers" classname="ComplexNumberTest" time="0.0"/>
