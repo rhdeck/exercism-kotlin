@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AnagramTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2018-09-18T21:52:23" hostname="raymonds-mbp.lan" time="8.245">
+  <properties/>
+  <testcase name="doesNotDetectAnagramSubsets" classname="AnagramTest" time="0.03"/>
+  <testcase name="detectsTwoAnagrams" classname="AnagramTest" time="0.011"/>
+  <testcase name="detectsAnagramsCaseInsensitively" classname="AnagramTest" time="2.773"/>
+  <testcase name="doesNotDetectIdenticalUppercasedWordAsAnagram" classname="AnagramTest" time="0.001"/>
+  <testcase name="doesNotDetectIdenticalWordAsAnagram" classname="AnagramTest" time="0.001"/>
+  <testcase name="doesNotDetectNonAnagramsWithIdenticalChecksums" classname="AnagramTest" time="0.0"/>
+  <testcase name="detectsAnagramsUsingCaseInsensitiveCandidates" classname="AnagramTest" time="2.698"/>
+  <testcase name="anagramsMustUseAllLettersExactlyOnce" classname="AnagramTest" time="0.001"/>
+  <testcase name="doesNotDetectAnAnagramIfTheOriginalWordIsRepeated" classname="AnagramTest" time="0.0"/>
+  <testcase name="doesNotDetectFalsePositives" classname="AnagramTest" time="0.0"/>
+  <testcase name="detectsThreeAnagrams" classname="AnagramTest" time="0.008"/>
+  <testcase name="detectsAnagramsUsingCaseInsensitiveSubject" classname="AnagramTest" time="2.713"/>
+  <testcase name="detectsLongerAnagram" classname="AnagramTest" time="0.001"/>
+  <testcase name="noMatches" classname="AnagramTest" time="0.001"/>
+  <testcase name="detectsSimpleAnagram" classname="AnagramTest" time="0.0"/>
+  <testcase name="doesNotDetectIdenticalWordWithMixedCasingAsAnagram" classname="AnagramTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

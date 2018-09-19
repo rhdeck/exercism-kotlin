@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RandomKeyCipherTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2018-09-19T13:00:48" hostname="raymonds-mbp.lan" time="0.061">
+  <properties/>
+  <testcase name="cipherKeyIsMadeOfLetters" classname="RandomKeyCipherTest" time="0.023"/>
+  <testcase name="cipherCanDecode" classname="RandomKeyCipherTest" time="0.015"/>
+  <testcase name="cipherCanEncode" classname="RandomKeyCipherTest" time="0.0"/>
+  <testcase name="cipherIsReversible" classname="RandomKeyCipherTest" time="0.0"/>
+  <testcase name="defaultCipherKeyIs100Characters" classname="RandomKeyCipherTest" time="0.001"/>
+  <testcase name="cipherKeysAreRandomlyGenerated" classname="RandomKeyCipherTest" time="0.0"/>
+  <testcase name="cipherKeyIsMadeOfLetters" classname="RandomKeyCipherTest" time="0.0"/>
+  <testcase name="cipherCanDecode" classname="RandomKeyCipherTest" time="0.0"/>
+  <testcase name="cipherCanEncode" classname="RandomKeyCipherTest" time="0.0"/>
+  <testcase name="cipherIsReversible" classname="RandomKeyCipherTest" time="0.001"/>
+  <testcase name="defaultCipherKeyIs100Characters" classname="RandomKeyCipherTest" time="0.0"/>
+  <testcase name="cipherKeysAreRandomlyGenerated" classname="RandomKeyCipherTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

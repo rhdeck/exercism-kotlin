@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ListExtensionsTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2018-09-19T00:35:59" hostname="raymonds-mbp.lan" time="0.041">
+  <properties/>
+  <testcase name="testReversingNonEmptyList" classname="ListExtensionsTest" time="0.029"/>
+  <testcase name="testTransformingNonEmptyList" classname="ListExtensionsTest" time="0.001"/>
+  <testcase name="testReversingEmptyList" classname="ListExtensionsTest" time="0.001"/>
+  <testcase name="testSizeOfNonEmptyList" classname="ListExtensionsTest" time="0.0"/>
+  <testcase name="testFilteringEmptyList" classname="ListExtensionsTest" time="0.001"/>
+  <testcase name="testFoldRightWithDirectionDependentOperationOnNonEmptyList" classname="ListExtensionsTest" time="0.003"/>
+  <testcase name="testFilteringNonEmptyList" classname="ListExtensionsTest" time="0.001"/>
+  <testcase name="testTransformingEmptyList" classname="ListExtensionsTest" time="0.0"/>
+  <testcase name="testFoldRightWithDirectionIndependentOperationOnNonEmptyList" classname="ListExtensionsTest" time="0.0"/>
+  <testcase name="testSizeOfEmptyList" classname="ListExtensionsTest" time="0.0"/>
+  <testcase name="testAppendingNonEmptyListOnNonEmptyList" classname="ListExtensionsTest" time="0.001"/>
+  <testcase name="testConcatOnNonEmptyListOfLists" classname="ListExtensionsTest" time="0.0"/>
+  <testcase name="testFoldLeftWithDirectionDependentOperationOnNonEmptyList" classname="ListExtensionsTest" time="0.0"/>
+  <testcase name="testAppendingNonEmptyListOnEmptyList" classname="ListExtensionsTest" time="0.001"/>
+  <testcase name="testFoldLeftWithDirectionIndependentOperationOnNonEmptyList" classname="ListExtensionsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

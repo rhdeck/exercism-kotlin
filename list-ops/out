@@ -1,0 +1,1111 @@
+19:29:03.033 [INFO] [org.gradle.internal.nativeintegration.services.NativeServices] Initialized native services in: /Users/ray/.gradle/native
+19:29:03.227 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Executing build 6c8859ff-5ad8-4b9d-b39e-de6f4373e8e4 in daemon client {pid=14156}
+19:29:03.238 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface utun2
+19:29:03.238 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+19:29:03.238 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+19:29:03.239 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:2f1f:468d:ed46:944f%utun2
+19:29:03.239 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface utun2
+19:29:03.239 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface en5
+19:29:03.239 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+19:29:03.239 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+19:29:03.239 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:aede:48ff:fe00:1122%en5
+19:29:03.239 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface en5
+19:29:03.239 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface utun1
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:bdd1:b805:6256:eef0%utun1
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface utun1
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface utun0
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:2b4b:6278:a915:fbe0%utun0
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface utun0
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface awdl0
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:70c0:ceff:fe0c:f8f6%awdl0
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface awdl0
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface en0
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:89b:a0af:f3d0:f569%en0
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.86.26
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface en0
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface lo0
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Ignoring remote address on loopback interface /fe80:0:0:0:0:0:0:1%lo0
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1%lo0
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+19:29:03.241 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface lo0
+19:29:03.248 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+19:29:03.250 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+19:29:03.253 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+19:29:03.255 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpOutgoingConnector] Attempting to connect to [bf1298f0-6ac5-429e-b654-ed588b89c2bc port:57311, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]].
+19:29:03.255 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpOutgoingConnector] Trying to connect to address /0:0:0:0:0:0:0:1.
+19:29:03.265 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpOutgoingConnector] Connected to address /0:0:0:0:0:0:0:1:57311.
+19:29:03.278 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Connected to daemon DaemonInfo{pid=33406, address=[bf1298f0-6ac5-429e-b654-ed588b89c2bc port:57311, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], state=Idle, lastBusy=1537313334966, context=DefaultDaemonContext[uid=1da7d388-e7d9-4fad-a4a8-3c202f1b6104,javaHome=/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home,daemonRegistryDir=/Users/ray/.gradle/daemon,pid=33406,idleTimeout=10800000,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]}. Dispatching request Build{id=6c8859ff-5ad8-4b9d-b39e-de6f4373e8e4, currentDir=/Users/ray/Exercism/kotlin/list-ops}.
+19:29:03.278 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 1: dispatching class org.gradle.launcher.daemon.protocol.Build
+19:29:03.284 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Received result org.gradle.launcher.daemon.protocol.BuildStarted@31dadd46 from daemon DaemonInfo{pid=33406, address=[bf1298f0-6ac5-429e-b654-ed588b89c2bc port:57311, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], state=Idle, lastBusy=1537313334966, context=DefaultDaemonContext[uid=1da7d388-e7d9-4fad-a4a8-3c202f1b6104,javaHome=/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home,daemonRegistryDir=/Users/ray/.gradle/daemon,pid=33406,idleTimeout=10800000,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} (build should be starting).
+19:29:03.282 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 33406). The daemon log file: /Users/ray/.gradle/daemon/4.10.1/daemon-33406.out.log
+19:29:03.282 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting 175th build in daemon [uptime: 4 hrs 28 mins 48.73 secs, performance: 100%, no major garbage collections]
+19:29:03.282 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+19:29:03.282 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=1da7d388-e7d9-4fad-a4a8-3c202f1b6104,javaHome=/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home,daemonRegistryDir=/Users/ray/.gradle/daemon,pid=33406,idleTimeout=10800000,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+19:29:03.283 [INFO] [org.gradle.internal.work.DefaultWorkerLeaseService] Using 8 worker leases.
+19:29:03.283 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for fileHashes, path /Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/fileHashes/fileHashes.bin, access org.gradle.cache.internal.DefaultCacheAccess@7482f96d
+19:29:03.284 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for file hash cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/fileHashes)
+19:29:03.284 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on file hash cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/fileHashes).
+19:29:03.284 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on file hash cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/fileHashes).
+19:29:03.285 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Run build' started
+19:29:03.285 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1 started (1 worker(s) in use).
+19:29:03.285 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 30: acquired lock on root.1
+19:29:03.285 [INFO] [org.gradle.internal.buildevents.BuildLogger] Starting Build
+19:29:03.285 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Gradle user home: /Users/ray/.gradle
+19:29:03.285 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Current dir: /Users/ray/Exercism/kotlin/list-ops
+19:29:03.285 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Settings file: null
+19:29:03.285 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Build file: null
+19:29:03.285 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Load build' started
+19:29:03.286 [DEBUG] [org.gradle.initialization.buildsrc.BuildSourceBuilder] Gradle source dir does not exist. We leave.
+19:29:03.286 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Evaluate settings' started
+19:29:03.286 [DEBUG] [org.gradle.initialization.DefaultGradlePropertiesLoader] Found env project properties: []
+19:29:03.286 [DEBUG] [org.gradle.initialization.DefaultGradlePropertiesLoader] Found system project properties: []
+19:29:03.286 [DEBUG] [org.gradle.initialization.ScriptEvaluatingSettingsProcessor] Timing: Processing settings took: 0.0 secs
+19:29:03.286 [INFO] [org.gradle.internal.buildevents.BuildLogger] Settings evaluated using settings file '/Users/ray/Exercism/kotlin/list-ops/settings.gradle'.
+19:29:03.286 [DEBUG] [org.gradle.caching.configuration.internal.DefaultBuildCacheConfiguration] Found class org.gradle.caching.local.internal.DirectoryBuildCacheServiceFactory registered for class org.gradle.caching.local.DirectoryBuildCache
+19:29:03.286 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Finalize build cache configuration' started
+19:29:03.286 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Finalize build cache configuration'
+19:29:03.286 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Finalize build cache configuration' completed
+19:29:03.287 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Evaluate settings'
+19:29:03.287 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Evaluate settings' completed
+19:29:03.287 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Load build'
+19:29:03.287 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Load build' completed
+19:29:03.287 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Configure build' started
+19:29:03.287 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Load projects' started
+19:29:03.287 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Project : - Transitioning model element '<root>' from state Registered to Created
+19:29:03.287 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Project : - Transitioning model element '<root>' to state Discovered.
+19:29:03.287 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Project : - Transitioning model element '<root>' to state Created.
+19:29:03.287 [DEBUG] [org.gradle.initialization.ProjectPropertySettingBuildLoader] Looking for project properties from: /Users/ray/Exercism/kotlin/list-ops/gradle.properties
+19:29:03.287 [DEBUG] [org.gradle.initialization.ProjectPropertySettingBuildLoader] project property file does not exists. We continue!
+19:29:03.287 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Load projects'
+19:29:03.288 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Load projects' completed
+19:29:03.288 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify projectsLoaded listeners' started
+19:29:03.288 [INFO] [org.gradle.internal.buildevents.BuildLogger] Projects loaded. Root project using build file '/Users/ray/Exercism/kotlin/list-ops/build.gradle'.
+19:29:03.288 [INFO] [org.gradle.internal.buildevents.BuildLogger] Included projects: [root project 'list-ops']
+19:29:03.288 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute 'rootProject {}' action' started
+19:29:03.288 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Cross-configure project :' started
+19:29:03.288 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Cross-configure project :'
+19:29:03.288 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Cross-configure project :' completed
+19:29:03.288 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute 'rootProject {}' action'
+19:29:03.288 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute 'rootProject {}' action' completed
+19:29:03.288 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Notify projectsLoaded listeners'
+19:29:03.288 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify projectsLoaded listeners' completed
+19:29:03.302 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.11 started (2 worker(s) in use).
+19:29:03.302 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 7: acquired lock on root.1.2.11
+19:29:03.302 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.10 started (3 worker(s) in use).
+19:29:03.303 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 6: acquired lock on root.1.2.10
+19:29:03.303 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.9 started (4 worker(s) in use).
+19:29:03.304 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 5: acquired lock on root.1.2.9
+19:29:03.304 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.8 started (5 worker(s) in use).
+19:29:03.304 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 4: acquired lock on root.1.2.8
+19:29:03.304 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-compiler-runner.jar (org.jetbrains.kotlin:kotlin-compiler-runner:1.2.40)' completed
+19:29:03.304 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve annotations.jar (org.jetbrains:annotations:13.0)' completed
+19:29:03.305 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.2.40)' completed
+19:29:03.305 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.7 started (6 worker(s) in use).
+19:29:03.306 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 3: acquired lock on root.1.2.7
+19:29:03.306 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.6 started (7 worker(s) in use).
+19:29:03.306 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 2: acquired lock on root.1.2.6
+19:29:03.306 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-daemon-client.jar (org.jetbrains.kotlin:kotlin-daemon-client:1.2.40)' completed
+19:29:03.307 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-compiler-embeddable.jar (org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40)' completed
+19:29:03.306 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-reflect.jar (org.jetbrains.kotlin:kotlin-reflect:1.2.40)' completed
+19:29:03.306 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.5 started (8 worker(s) in use).
+19:29:03.307 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 8: acquired lock on root.1.2.5
+19:29:03.307 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Build operation root.1.2.4 could not be started (8 worker(s) in use).
+19:29:03.307 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-build-common.jar (org.jetbrains.kotlin:kotlin-build-common:1.2.40)' completed
+19:29:03.307 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.8 completed (7 worker(s) in use)
+19:29:03.307 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 4: released lock on root.1.2.8
+19:29:03.308 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-android-extensions.jar (org.jetbrains.kotlin:kotlin-android-extensions:1.2.40)' completed
+19:29:03.307 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.7 completed (6 worker(s) in use)
+19:29:03.308 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 3: released lock on root.1.2.7
+19:29:03.308 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-annotation-processing-gradle.jar (org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.40)' completed
+19:29:03.308 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.11 completed (5 worker(s) in use)
+19:29:03.308 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 7: released lock on root.1.2.11
+19:29:03.308 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.9 completed (3 worker(s) in use)
+19:29:03.308 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 5: released lock on root.1.2.9
+19:29:03.308 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.6 completed (2 worker(s) in use)
+19:29:03.308 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 2: released lock on root.1.2.6
+19:29:03.309 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.5 completed (1 worker(s) in use)
+19:29:03.309 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 8: released lock on root.1.2.5
+19:29:03.309 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.4 started (2 worker(s) in use).
+19:29:03.309 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations: acquired lock on root.1.2.4
+19:29:03.309 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.10 completed (1 worker(s) in use)
+19:29:03.309 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 6: released lock on root.1.2.10
+19:29:03.309 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-gradle-plugin-api.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.2.40)' completed
+19:29:03.309 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.4 completed (1 worker(s) in use)
+19:29:03.309 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations: released lock on root.1.2.4
+19:29:03.288 [LIFECYCLE] [org.gradle.internal.logging.progress.ProgressLoggerFactory] 
+19:29:03.288 [LIFECYCLE] [org.gradle.internal.logging.progress.ProgressLoggerFactory] > Configure project :
+19:29:03.288 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Configure project :' started
+19:29:03.288 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify beforeEvaluate listeners of :' started
+19:29:03.288 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Notify beforeEvaluate listeners of :'
+19:29:03.288 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify beforeEvaluate listeners of :' completed
+19:29:03.288 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :init' started
+19:29:03.289 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :init'
+19:29:03.289 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :init' completed
+19:29:03.289 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :wrapper' started
+19:29:03.289 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :wrapper'
+19:29:03.289 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :wrapper' completed
+19:29:03.289 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.help-tasks to root project 'list-ops'' started
+19:29:03.289 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :help' started
+19:29:03.289 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :help'
+19:29:03.289 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :help' completed
+19:29:03.289 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :projects' started
+19:29:03.289 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :projects'
+19:29:03.289 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :projects' completed
+19:29:03.289 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :tasks' started
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :tasks'
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :tasks' completed
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :properties' started
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :properties'
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :properties' completed
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependencyInsight' started
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :dependencyInsight'
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependencyInsight' completed
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependencies' started
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :dependencies'
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependencies' completed
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :buildEnvironment' started
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :buildEnvironment'
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :buildEnvironment' completed
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :components' started
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :components'
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :components' completed
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :model' started
+19:29:03.290 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :model'
+19:29:03.291 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :model' completed
+19:29:03.291 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependentComponents' started
+19:29:03.291 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :dependentComponents'
+19:29:03.291 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :dependentComponents' completed
+19:29:03.291 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.help-tasks to root project 'list-ops''
+19:29:03.291 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.help-tasks to root project 'list-ops'' completed
+19:29:03.291 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating root project 'list-ops' using build file '/Users/ray/Exercism/kotlin/list-ops/build.gradle'.
+19:29:03.291 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply script build.gradle to root project 'list-ops'' started
+19:29:03.292 [DEBUG] [org.gradle.api.internal.artifacts.mvnsettings.DefaultLocalMavenRepositoryLocator] No local repository in Settings file defined. Using default path: /Users/ray/.m2/repository
+19:29:03.292 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for workingDirs, path /Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/vcsMetadata-1/workingDirs.bin, access org.gradle.cache.internal.DefaultCacheAccess@9c3407e
+19:29:03.292 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for md-supplier, path /Users/ray/.gradle/caches/4.10.1/md-supplier/md-supplier.bin, access org.gradle.cache.internal.DefaultCacheAccess@1850d637
+19:29:03.293 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for cache directory md-supplier (/Users/ray/.gradle/caches/4.10.1/md-supplier)
+19:29:03.293 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on cache directory md-supplier (/Users/ray/.gradle/caches/4.10.1/md-supplier).
+19:29:03.293 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on cache directory md-supplier (/Users/ray/.gradle/caches/4.10.1/md-supplier).
+19:29:03.293 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for md-rule, path /Users/ray/.gradle/caches/4.10.1/md-rule/md-rule.bin, access org.gradle.cache.internal.DefaultCacheAccess@3f78b69a
+19:29:03.294 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for cache directory md-rule (/Users/ray/.gradle/caches/4.10.1/md-rule)
+19:29:03.294 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on cache directory md-rule (/Users/ray/.gradle/caches/4.10.1/md-rule).
+19:29:03.294 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on cache directory md-rule (/Users/ray/.gradle/caches/4.10.1/md-rule).
+19:29:03.294 [DEBUG] [org.gradle.internal.locking.LockFileReaderWriter] Lockfiles root: /Users/ray/Exercism/kotlin/list-ops/gradle/dependency-locks
+19:29:03.294 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve dependencies of :classpath' started
+19:29:03.295 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver] Resolving configuration ':classpath'
+19:29:03.295 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.modulecache.ResolvedArtifactCaches] Creating new in-memory cache for repo 'MavenRepo' [f8e6315c37eb56998f7a5ba08e30db71].
+19:29:03.295 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration :list-ops:unspecified(classpath).
+19:29:03.295 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.40 using repositories [MavenRepo]
+19:29:03.296 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.40' in 'MavenRepo'
+19:29:03.296 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.296 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.40(default).
+19:29:03.296 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.2.40 using repositories [MavenRepo]
+19:29:03.296 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.2.40' in 'MavenRepo'
+19:29:03.296 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.296 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-stdlib:1.2.40 using repositories [MavenRepo]
+19:29:03.296 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-stdlib:1.2.40' in 'MavenRepo'
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-stdlib:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40 using repositories [MavenRepo]
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40' in 'MavenRepo'
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.40 using repositories [MavenRepo]
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.40' in 'MavenRepo'
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-android-extensions:1.2.40 using repositories [MavenRepo]
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-android-extensions:1.2.40' in 'MavenRepo'
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-android-extensions:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-compiler-runner:1.2.40 using repositories [MavenRepo]
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-compiler-runner:1.2.40' in 'MavenRepo'
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-compiler-runner:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-reflect:1.2.40 using repositories [MavenRepo]
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-reflect:1.2.40' in 'MavenRepo'
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-reflect:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.2.40(runtime).
+19:29:03.297 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-stdlib:1.2.40(runtime).
+19:29:03.298 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains:annotations:13.0 using repositories [MavenRepo]
+19:29:03.298 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains:annotations:13.0' in 'MavenRepo'
+19:29:03.298 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains:annotations:13.0 from Maven repository 'MavenRepo'
+19:29:03.298 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40(runtime).
+19:29:03.298 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-script-runtime:1.2.40 using repositories [MavenRepo]
+19:29:03.298 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-script-runtime:1.2.40' in 'MavenRepo'
+19:29:03.298 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-script-runtime:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.298 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.40(runtime).
+19:29:03.298 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-android-extensions:1.2.40(runtime).
+19:29:03.298 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-compiler-runner:1.2.40(runtime).
+19:29:03.298 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-build-common:1.2.40 using repositories [MavenRepo]
+19:29:03.298 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-build-common:1.2.40' in 'MavenRepo'
+19:29:03.298 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-build-common:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.299 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-daemon-client:1.2.40 using repositories [MavenRepo]
+19:29:03.299 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-daemon-client:1.2.40' in 'MavenRepo'
+19:29:03.299 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-daemon-client:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.299 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-reflect:1.2.40(runtime).
+19:29:03.299 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains:annotations:13.0(runtime).
+19:29:03.299 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-stdlib:1.2.40(runtime).
+19:29:03.299 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Changed edges for org.jetbrains.kotlin:kotlin-stdlib:1.2.40(runtime) selects same versions as previous traversal. ignoring
+19:29:03.299 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-script-runtime:1.2.40(runtime).
+19:29:03.299 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40(runtime).
+19:29:03.299 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Changed edges for org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40(runtime) selects same versions as previous traversal. ignoring
+19:29:03.299 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-build-common:1.2.40(runtime).
+19:29:03.299 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-daemon-client:1.2.40(runtime).
+19:29:03.299 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.oldresult.TransientConfigurationResultsBuilder] Flushing resolved configuration data in Binary store in /private/var/folders/y5/qx5zn3596xs105t5lt_g6y540000gn/T/gradle8097876021326328555.bin. Wrote root 2.
+19:29:03.300 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve dependencies of :classpath'
+19:29:03.300 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve dependencies of :classpath' completed
+19:29:03.300 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.40 configuration default from candidates [org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.40 configuration default] for {}
+19:29:03.300 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.2.40 configuration runtime] for {}
+19:29:03.300 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.40 configuration runtime] for {}
+19:29:03.300 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-android-extensions:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-android-extensions:1.2.40 configuration runtime] for {}
+19:29:03.300 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40 configuration runtime] for {}
+19:29:03.300 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-reflect:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-reflect:1.2.40 configuration runtime] for {}
+19:29:03.300 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-stdlib:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-stdlib:1.2.40 configuration runtime] for {}
+19:29:03.300 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-compiler-runner:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-compiler-runner:1.2.40 configuration runtime] for {}
+19:29:03.300 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains:annotations:13.0 configuration runtime from candidates [org.jetbrains:annotations:13.0 configuration runtime] for {}
+19:29:03.300 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-script-runtime:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-script-runtime:1.2.40 configuration runtime] for {}
+19:29:03.300 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-build-common:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-build-common:1.2.40 configuration runtime] for {}
+19:29:03.300 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-daemon-client:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-daemon-client:1.2.40 configuration runtime] for {}
+19:29:03.300 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :classpath' started
+19:29:03.302 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.3 started (1 worker(s) in use).
+19:29:03.302 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 30: acquired lock on root.1.2.3
+19:29:03.302 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-gradle-plugin.jar (org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.40)' started
+19:29:03.302 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'kotlin-gradle-plugin.jar (org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.40)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.2.40/a5f1b6d72834cd21e402bf61f1303c8d705d49e/kotlin-gradle-plugin-1.2.40.jar
+19:29:03.303 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve kotlin-gradle-plugin.jar (org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.40)'
+19:29:03.303 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve annotations.jar (org.jetbrains:annotations:13.0)' started
+19:29:03.303 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-gradle-plugin.jar (org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.40)' completed
+19:29:03.304 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-compiler-runner.jar (org.jetbrains.kotlin:kotlin-compiler-runner:1.2.40)' started
+19:29:03.304 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'annotations.jar (org.jetbrains:annotations:13.0)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar
+19:29:03.304 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve annotations.jar (org.jetbrains:annotations:13.0)'
+19:29:03.304 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'kotlin-compiler-runner.jar (org.jetbrains.kotlin:kotlin-compiler-runner:1.2.40)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/1.2.40/17efd1fbc5f90f3daca96bf1036c07c856d930b8/kotlin-compiler-runner-1.2.40.jar
+19:29:03.304 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve kotlin-compiler-runner.jar (org.jetbrains.kotlin:kotlin-compiler-runner:1.2.40)'
+19:29:03.304 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-script-runtime.jar (org.jetbrains.kotlin:kotlin-script-runtime:1.2.40)' started
+19:29:03.304 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.2.40)' started
+19:29:03.304 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'kotlin-script-runtime.jar (org.jetbrains.kotlin:kotlin-script-runtime:1.2.40)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.2.40/f9f881f1db66ba70870ab1cddc409142401b6cf0/kotlin-script-runtime-1.2.40.jar
+19:29:03.305 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-daemon-client.jar (org.jetbrains.kotlin:kotlin-daemon-client:1.2.40)' started
+19:29:03.305 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.2.40)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.40/d39920020ab3e74f406a8e142fb94b360f3f80f8/kotlin-stdlib-1.2.40.jar
+19:29:03.305 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.2.40)'
+19:29:03.305 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve kotlin-script-runtime.jar (org.jetbrains.kotlin:kotlin-script-runtime:1.2.40)'
+19:29:03.306 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-reflect.jar (org.jetbrains.kotlin:kotlin-reflect:1.2.40)' started
+19:29:03.305 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-script-runtime.jar (org.jetbrains.kotlin:kotlin-script-runtime:1.2.40)' completed
+19:29:03.305 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'kotlin-daemon-client.jar (org.jetbrains.kotlin:kotlin-daemon-client:1.2.40)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-client/1.2.40/287b0d6bca848618f241f4868bcab5562c038c5b/kotlin-daemon-client-1.2.40.jar
+19:29:03.305 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-build-common.jar (org.jetbrains.kotlin:kotlin-build-common:1.2.40)' started
+19:29:03.306 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve kotlin-daemon-client.jar (org.jetbrains.kotlin:kotlin-daemon-client:1.2.40)'
+19:29:03.306 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'kotlin-reflect.jar (org.jetbrains.kotlin:kotlin-reflect:1.2.40)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.40/d984261ef3ff59acfa4e8c0480c6e01df40853a4/kotlin-reflect-1.2.40.jar
+19:29:03.306 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-compiler-embeddable.jar (org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40)' started
+19:29:03.306 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve kotlin-reflect.jar (org.jetbrains.kotlin:kotlin-reflect:1.2.40)'
+19:29:03.306 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'kotlin-build-common.jar (org.jetbrains.kotlin:kotlin-build-common:1.2.40)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-common/1.2.40/f3a293f56ad831f570eb423add89ed80f3403774/kotlin-build-common-1.2.40.jar
+19:29:03.306 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'kotlin-compiler-embeddable.jar (org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.2.40/94ec38ee25d34165f97f9d0feccd6573aecdf8a2/kotlin-compiler-embeddable-1.2.40.jar
+19:29:03.307 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve kotlin-compiler-embeddable.jar (org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40)'
+19:29:03.307 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-annotation-processing-gradle.jar (org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.40)' started
+19:29:03.307 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve kotlin-build-common.jar (org.jetbrains.kotlin:kotlin-build-common:1.2.40)'
+19:29:03.307 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'kotlin-annotation-processing-gradle.jar (org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.40)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.2.40/e5c56f911827d8bad91d1dda7e1adf00960a2e5d/kotlin-annotation-processing-gradle-1.2.40.jar
+19:29:03.307 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-android-extensions.jar (org.jetbrains.kotlin:kotlin-android-extensions:1.2.40)' started
+19:29:03.307 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve kotlin-annotation-processing-gradle.jar (org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.40)'
+19:29:03.308 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'kotlin-android-extensions.jar (org.jetbrains.kotlin:kotlin-android-extensions:1.2.40)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.40/5f124db1c11af4500eee2313ab4092f1c3f3f304/kotlin-android-extensions-1.2.40.jar
+19:29:03.308 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve kotlin-android-extensions.jar (org.jetbrains.kotlin:kotlin-android-extensions:1.2.40)'
+19:29:03.308 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.2.3 completed (4 worker(s) in use)
+19:29:03.308 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 30: released lock on root.1.2.3
+19:29:03.309 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-gradle-plugin-api.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.2.40)' started
+19:29:03.309 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'kotlin-gradle-plugin-api.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.2.40)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.2.40/c0a04f1bb34364d657d4256e810de8fb7b4ab78/kotlin-gradle-plugin-api-1.2.40.jar
+19:29:03.309 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve kotlin-gradle-plugin-api.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.2.40)'
+19:29:03.310 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve files of :classpath'
+19:29:03.310 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :classpath' completed
+19:29:03.310 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.40 configuration default from candidates [org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.40 configuration default] for {}
+19:29:03.310 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.2.40 configuration runtime] for {}
+19:29:03.310 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.40 configuration runtime] for {}
+19:29:03.310 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-android-extensions:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-android-extensions:1.2.40 configuration runtime] for {}
+19:29:03.310 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40 configuration runtime] for {}
+19:29:03.310 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-reflect:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-reflect:1.2.40 configuration runtime] for {}
+19:29:03.310 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-stdlib:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-stdlib:1.2.40 configuration runtime] for {}
+19:29:03.310 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-compiler-runner:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-compiler-runner:1.2.40 configuration runtime] for {}
+19:29:03.310 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains:annotations:13.0 configuration runtime from candidates [org.jetbrains:annotations:13.0 configuration runtime] for {}
+19:29:03.310 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-script-runtime:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-script-runtime:1.2.40 configuration runtime] for {}
+19:29:03.310 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-build-common:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-build-common:1.2.40 configuration runtime] for {}
+19:29:03.310 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-daemon-client:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-daemon-client:1.2.40 configuration runtime] for {}
+19:29:03.310 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :classpath' started
+19:29:03.310 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve files of :classpath'
+19:29:03.310 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :classpath' completed
+19:29:03.312 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin kotlin to root project 'list-ops'' started
+19:29:03.312 [DEBUG] [org.jetbrains.kotlin.gradle.plugin.KotlinPluginWrapper] [KOTLIN] Loading version information
+19:29:03.312 [DEBUG] [org.jetbrains.kotlin.gradle.plugin.KotlinPluginWrapper] [KOTLIN] Found project version [1.2.40]
+19:29:03.312 [DEBUG] [org.jetbrains.kotlin.gradle.plugin.KotlinGradleBuildServices] [KOTLIN] Initialized KotlinGradleBuildServices
+19:29:03.312 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.api.plugins.JavaBasePlugin to root project 'list-ops'' started
+19:29:03.312 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.api.plugins.BasePlugin to root project 'list-ops'' started
+19:29:03.312 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.language.base.plugins.LifecycleBasePlugin to root project 'list-ops'' started
+19:29:03.313 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :clean' started
+19:29:03.313 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :clean'
+19:29:03.313 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :clean' completed
+19:29:03.313 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :assemble' started
+19:29:03.313 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :assemble'
+19:29:03.313 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :assemble' completed
+19:29:03.313 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :check' started
+19:29:03.313 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :check'
+19:29:03.313 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :check' completed
+19:29:03.313 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :build' started
+19:29:03.313 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :build'
+19:29:03.313 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :build' completed
+19:29:03.313 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.language.base.plugins.LifecycleBasePlugin to root project 'list-ops''
+19:29:03.314 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.language.base.plugins.LifecycleBasePlugin to root project 'list-ops'' completed
+19:29:03.314 [DEBUG] [org.gradle.internal.locking.LockFileReaderWriter] Lockfiles root: /Users/ray/Exercism/kotlin/list-ops/gradle/dependency-locks
+19:29:03.314 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.api.plugins.BasePlugin to root project 'list-ops''
+19:29:03.314 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.api.plugins.BasePlugin to root project 'list-ops'' completed
+19:29:03.314 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.api.plugins.ReportingBasePlugin to root project 'list-ops'' started
+19:29:03.314 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.api.plugins.ReportingBasePlugin to root project 'list-ops''
+19:29:03.314 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.api.plugins.ReportingBasePlugin to root project 'list-ops'' completed
+19:29:03.315 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :buildNeeded' started
+19:29:03.315 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :buildNeeded'
+19:29:03.315 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :buildNeeded' completed
+19:29:03.315 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :buildDependents' started
+19:29:03.315 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :buildDependents'
+19:29:03.315 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :buildDependents' completed
+19:29:03.315 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.api.plugins.JavaBasePlugin to root project 'list-ops''
+19:29:03.315 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.api.plugins.JavaBasePlugin to root project 'list-ops'' completed
+19:29:03.315 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.api.plugins.JavaPlugin to root project 'list-ops'' started
+19:29:03.316 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :processResources' started
+19:29:03.316 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :processResources'
+19:29:03.316 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :processResources' completed
+19:29:03.316 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :compileJava' started
+19:29:03.316 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :compileJava'
+19:29:03.316 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :compileJava' completed
+19:29:03.316 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :classes' started
+19:29:03.316 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :classes'
+19:29:03.316 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :classes' completed
+19:29:03.317 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :processTestResources' started
+19:29:03.317 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :processTestResources'
+19:29:03.317 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :processTestResources' completed
+19:29:03.317 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :compileTestJava' started
+19:29:03.317 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :compileTestJava'
+19:29:03.317 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :compileTestJava' completed
+19:29:03.317 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :testClasses' started
+19:29:03.317 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :testClasses'
+19:29:03.317 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :testClasses' completed
+19:29:03.318 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :javadoc' started
+19:29:03.318 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :javadoc'
+19:29:03.318 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :javadoc' completed
+19:29:03.318 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :test' started
+19:29:03.318 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :test'
+19:29:03.318 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :test' completed
+19:29:03.318 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :jar' started
+19:29:03.318 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Register task :jar'
+19:29:03.318 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Register task :jar' completed
+19:29:03.318 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :jar' started
+19:29:03.319 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :jar'
+19:29:03.319 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :jar' completed
+19:29:03.319 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin org.gradle.api.plugins.JavaPlugin to root project 'list-ops''
+19:29:03.319 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin org.gradle.api.plugins.JavaPlugin to root project 'list-ops'' completed
+19:29:03.319 [DEBUG] [org.jetbrains.kotlin.gradle.plugin.Kotlin2JvmSourceSetProcessor] [KOTLIN] Creating KotlinSourceSet for source set 'main'
+19:29:03.320 [DEBUG] [org.jetbrains.kotlin.gradle.plugin.Kotlin2JvmSourceSetProcessor] [KOTLIN] Creating kotlin compile task compileKotlin
+19:29:03.320 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :compileKotlin' started
+19:29:03.320 [DEBUG] [org.gradle.api.Task] [KOTLIN] Set task ':compileKotlin'.incremental=true
+19:29:03.320 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :compileKotlin'
+19:29:03.320 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :compileKotlin' completed
+19:29:03.320 [DEBUG] [org.jetbrains.kotlin.gradle.plugin.Kotlin2JvmSourceSetProcessor] [KOTLIN] Creating KotlinSourceSet for source set 'test'
+19:29:03.321 [DEBUG] [org.jetbrains.kotlin.gradle.plugin.Kotlin2JvmSourceSetProcessor] [KOTLIN] Creating kotlin compile task compileTestKotlin
+19:29:03.321 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :compileTestKotlin' started
+19:29:03.321 [DEBUG] [org.gradle.api.Task] [KOTLIN] Set task ':compileTestKotlin'.incremental=true
+19:29:03.321 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :compileTestKotlin'
+19:29:03.321 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :compileTestKotlin' completed
+19:29:03.321 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply plugin kotlin to root project 'list-ops''
+19:29:03.321 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply plugin kotlin to root project 'list-ops'' completed
+19:29:03.322 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :test' started
+19:29:03.322 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :test'
+19:29:03.322 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :test' completed
+19:29:03.323 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Apply script build.gradle to root project 'list-ops''
+19:29:03.323 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Apply script build.gradle to root project 'list-ops'' completed
+19:29:03.323 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.031 secs
+19:29:03.323 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify afterEvaluate listeners of :' started
+19:29:03.323 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute Project.afterEvaluate listener' started
+19:29:03.323 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :compileJava' started
+19:29:03.323 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :compileJava'
+19:29:03.323 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :compileJava' completed
+19:29:03.324 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.40 configuration default from candidates [org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.40 configuration default] for {}
+19:29:03.324 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.2.40 configuration runtime] for {}
+19:29:03.324 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.40 configuration runtime] for {}
+19:29:03.324 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-android-extensions:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-android-extensions:1.2.40 configuration runtime] for {}
+19:29:03.324 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40 configuration runtime] for {}
+19:29:03.324 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-reflect:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-reflect:1.2.40 configuration runtime] for {}
+19:29:03.324 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-stdlib:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-stdlib:1.2.40 configuration runtime] for {}
+19:29:03.324 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-compiler-runner:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-compiler-runner:1.2.40 configuration runtime] for {}
+19:29:03.324 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains:annotations:13.0 configuration runtime from candidates [org.jetbrains:annotations:13.0 configuration runtime] for {}
+19:29:03.324 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-script-runtime:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-script-runtime:1.2.40 configuration runtime] for {}
+19:29:03.324 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-build-common:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-build-common:1.2.40 configuration runtime] for {}
+19:29:03.324 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-daemon-client:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-daemon-client:1.2.40 configuration runtime] for {}
+19:29:03.324 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :classpath' started
+19:29:03.324 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve files of :classpath'
+19:29:03.325 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :classpath' completed
+19:29:03.325 [DEBUG] [org.gradle.api.Project] [KOTLIN] Trying to determine single artifact for project :
+19:29:03.325 [DEBUG] [org.gradle.api.Project] [KOTLIN] All artifacts for project :: [/Users/ray/Exercism/kotlin/list-ops/build/libs/list-ops.jar]
+19:29:03.325 [DEBUG] [org.gradle.api.Task] [KOTLIN] Configuring multi-project incremental compilation for project :
+19:29:03.325 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :clean' started
+19:29:03.325 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :clean'
+19:29:03.325 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :clean' completed
+19:29:03.325 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :assemble' started
+19:29:03.325 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :assemble'
+19:29:03.326 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :assemble' completed
+19:29:03.326 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :check' started
+19:29:03.326 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :check'
+19:29:03.326 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :check' completed
+19:29:03.326 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :build' started
+19:29:03.326 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :build'
+19:29:03.326 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :build' completed
+19:29:03.326 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :buildNeeded' started
+19:29:03.326 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :buildNeeded'
+19:29:03.326 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :buildNeeded' completed
+19:29:03.326 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :buildDependents' started
+19:29:03.326 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :buildDependents'
+19:29:03.326 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :buildDependents' completed
+19:29:03.326 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :processResources' started
+19:29:03.326 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :processResources'
+19:29:03.326 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :processResources' completed
+19:29:03.326 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :classes' started
+19:29:03.327 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :classes'
+19:29:03.327 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :classes' completed
+19:29:03.327 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :processTestResources' started
+19:29:03.327 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :processTestResources'
+19:29:03.327 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :processTestResources' completed
+19:29:03.327 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :compileTestJava' started
+19:29:03.327 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :compileTestJava'
+19:29:03.327 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :compileTestJava' completed
+19:29:03.327 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :testClasses' started
+19:29:03.327 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :testClasses'
+19:29:03.327 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :testClasses' completed
+19:29:03.327 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :javadoc' started
+19:29:03.327 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Realize task :javadoc'
+19:29:03.327 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Realize task :javadoc' completed
+19:29:03.328 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute Project.afterEvaluate listener'
+19:29:03.328 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute Project.afterEvaluate listener' completed
+19:29:03.328 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute Project.afterEvaluate listener' started
+19:29:03.329 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.40 configuration default from candidates [org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.40 configuration default] for {}
+19:29:03.329 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.2.40 configuration runtime] for {}
+19:29:03.329 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.40 configuration runtime] for {}
+19:29:03.329 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-android-extensions:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-android-extensions:1.2.40 configuration runtime] for {}
+19:29:03.329 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.40 configuration runtime] for {}
+19:29:03.329 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-reflect:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-reflect:1.2.40 configuration runtime] for {}
+19:29:03.329 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-stdlib:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-stdlib:1.2.40 configuration runtime] for {}
+19:29:03.329 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-compiler-runner:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-compiler-runner:1.2.40 configuration runtime] for {}
+19:29:03.329 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains:annotations:13.0 configuration runtime from candidates [org.jetbrains:annotations:13.0 configuration runtime] for {}
+19:29:03.329 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-script-runtime:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-script-runtime:1.2.40 configuration runtime] for {}
+19:29:03.329 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-build-common:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-build-common:1.2.40 configuration runtime] for {}
+19:29:03.329 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-daemon-client:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-daemon-client:1.2.40 configuration runtime] for {}
+19:29:03.329 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :classpath' started
+19:29:03.329 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve files of :classpath'
+19:29:03.330 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :classpath' completed
+19:29:03.330 [DEBUG] [org.gradle.api.Project] [KOTLIN] Trying to determine single artifact for project :
+19:29:03.330 [DEBUG] [org.gradle.api.Project] [KOTLIN] All artifacts for project :: [/Users/ray/Exercism/kotlin/list-ops/build/libs/list-ops.jar]
+19:29:03.330 [DEBUG] [org.gradle.api.Task] [KOTLIN] Configuring multi-project incremental compilation for project :
+19:29:03.330 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute Project.afterEvaluate listener'
+19:29:03.330 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute Project.afterEvaluate listener' completed
+19:29:03.330 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Notify afterEvaluate listeners of :'
+19:29:03.330 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify afterEvaluate listeners of :' completed
+19:29:03.330 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Configure project :'
+19:29:03.330 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Configure project :' completed
+19:29:03.330 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify projectsEvaluated listeners' started
+19:29:03.331 [INFO] [org.gradle.internal.buildevents.BuildLogger] All projects evaluated.
+19:29:03.331 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute Gradle.addBuildListener listener' started
+19:29:03.331 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute Gradle.addBuildListener listener'
+19:29:03.331 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute Gradle.addBuildListener listener' completed
+19:29:03.331 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Notify projectsEvaluated listeners'
+19:29:03.331 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify projectsEvaluated listeners' completed
+19:29:03.331 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Configure build'
+19:29:03.331 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Configure build' completed
+19:29:03.331 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Calculate task graph' started
+19:29:03.331 [INFO] [org.gradle.execution.TaskNameResolvingBuildConfigurationAction] Selected primary task 'test' from project :
+19:29:03.332 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver] Resolving configuration ':testRuntimeClasspath'
+19:29:03.332 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration :list-ops:unspecified(testRuntimeClasspath).
+19:29:03.332 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] dependency: org.jetbrains.kotlin:kotlin-stdlib:1.2.40 from-conf: compile to-conf: null is filtered.
+19:29:03.333 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] dependency: junit:junit:4.12 from-conf: testCompile to-conf: null is filtered.
+19:29:03.333 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] dependency: org.jetbrains.kotlin:kotlin-test-junit:1.2.40 from-conf: testCompile to-conf: null is filtered.
+19:29:03.333 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for annotation-processors, path /Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/fileContent/annotation-processors.bin, access org.gradle.cache.internal.DefaultCacheAccess@1f322b85
+19:29:03.334 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for file content cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/fileContent)
+19:29:03.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on file content cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/fileContent).
+19:29:03.334 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on file content cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/fileContent).
+19:29:03.334 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver] Resolving configuration ':compileClasspath'
+19:29:03.334 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration :list-ops:unspecified(compileClasspath).
+19:29:03.334 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] dependency: org.jetbrains.kotlin:kotlin-stdlib:1.2.40 from-conf: compile to-conf: null is filtered.
+19:29:03.335 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver] Resolving configuration ':testCompileClasspath'
+19:29:03.335 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration :list-ops:unspecified(testCompileClasspath).
+19:29:03.335 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] dependency: org.jetbrains.kotlin:kotlin-stdlib:1.2.40 from-conf: compile to-conf: null is filtered.
+19:29:03.335 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] dependency: junit:junit:4.12 from-conf: testCompile to-conf: null is filtered.
+19:29:03.335 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] dependency: org.jetbrains.kotlin:kotlin-test-junit:1.2.40 from-conf: testCompile to-conf: null is filtered.
+19:29:03.336 [DEBUG] [org.gradle.execution.taskgraph.DefaultTaskExecutionGraph] Timing: Creating the DAG took 0.004 secs
+19:29:03.336 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Calculate task graph'
+19:29:03.336 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Calculate task graph' completed
+19:29:03.336 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Run tasks' started
+19:29:03.336 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify task graph whenReady listeners' started
+19:29:03.336 [INFO] [org.gradle.internal.buildevents.BuildLogger] Tasks to be executed: [task ':compileKotlin', task ':compileJava', task ':processResources', task ':classes', task ':compileTestKotlin', task ':compileTestJava', task ':processTestResources', task ':testClasses', task ':test']
+19:29:03.336 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Notify task graph whenReady listeners'
+19:29:03.336 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Notify task graph whenReady listeners' completed
+19:29:03.336 [DEBUG] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] Using 8 parallel executor threads
+19:29:03.337 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': acquired lock on :
+19:29:03.337 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15 started (1 worker(s) in use).
+19:29:03.337 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': acquired lock on root.1.15
+19:29:03.337 [INFO] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] :compileKotlin (Thread[Task worker for ':',5,main]) started.
+19:29:03.338 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for resourceHashesCache, path /Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/fileHashes/resourceHashesCache.bin, access org.gradle.cache.internal.DefaultCacheAccess@7482f96d
+19:29:03.338 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for taskHistory, path /Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/taskHistory/taskHistory.bin, access org.gradle.cache.internal.DefaultCacheAccess@ce0b181
+19:29:03.338 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for task history cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/taskHistory)
+19:29:03.338 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on task history cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/taskHistory).
+19:29:03.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on task history cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/taskHistory).
+19:29:03.339 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Creating new cache for outputFiles, path /Users/ray/Exercism/kotlin/list-ops/.gradle/buildOutputCleanup/outputFiles.bin, access org.gradle.cache.internal.DefaultCacheAccess@12f3a056
+19:29:03.339 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for Build Output Cleanup Cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/buildOutputCleanup)
+19:29:03.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on Build Output Cleanup Cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/buildOutputCleanup).
+19:29:03.339 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on Build Output Cleanup Cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/buildOutputCleanup).
+19:29:03.340 [LIFECYCLE] [class org.gradle.internal.buildevents.TaskExecutionLogger] 
+19:29:03.340 [LIFECYCLE] [class org.gradle.internal.buildevents.TaskExecutionLogger] > Task :compileKotlin UP-TO-DATE
+19:29:03.340 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Task :compileKotlin' started
+19:29:03.340 [DEBUG] [org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter] Starting to execute task ':compileKotlin'
+19:29:03.340 [DEBUG] [org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter] Putting task artifact state for task ':compileKotlin' into context took 0.0 secs.
+19:29:03.341 [DEBUG] [org.gradle.api.Task] [KOTLIN] args.coroutinesState=warn
+19:29:03.341 [DEBUG] [org.gradle.api.Task] [KOTLIN] args.moduleName = list-ops
+19:29:03.341 [DEBUG] [org.gradle.api.Task] [KOTLIN] args.friendPaths = []
+19:29:03.341 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve dependencies of :compileClasspath' started
+19:29:03.343 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver] Resolving configuration ':compileClasspath'
+19:29:03.343 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.modulecache.ResolvedArtifactCaches] Reusing in-memory cache for repo 'MavenRepo' [f8e6315c37eb56998f7a5ba08e30db71].
+19:29:03.343 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration :list-ops:unspecified(compileClasspath).
+19:29:03.343 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-stdlib:1.2.40 using repositories [MavenRepo]
+19:29:03.343 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-stdlib:1.2.40' in 'MavenRepo'
+19:29:03.343 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-stdlib:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.343 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] No candidates for {org.gradle.usage=java-api}, selected matching fallback org.jetbrains.kotlin:kotlin-stdlib:1.2.40 configuration default
+19:29:03.343 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-stdlib:1.2.40(default).
+19:29:03.343 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains:annotations:13.0 using repositories [MavenRepo]
+19:29:03.343 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains:annotations:13.0' in 'MavenRepo'
+19:29:03.343 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains:annotations:13.0 from Maven repository 'MavenRepo'
+19:29:03.344 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains:annotations:13.0(runtime).
+19:29:03.344 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.oldresult.TransientConfigurationResultsBuilder] Flushing resolved configuration data in Binary store in /private/var/folders/y5/qx5zn3596xs105t5lt_g6y540000gn/T/gradle5615521458624393644.bin. Wrote root 2.
+19:29:03.344 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve dependencies of :compileClasspath'
+19:29:03.344 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve dependencies of :compileClasspath' completed
+19:29:03.344 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-stdlib:1.2.40 configuration default from candidates [org.jetbrains.kotlin:kotlin-stdlib:1.2.40 configuration default] for {org.gradle.usage=java-api}
+19:29:03.345 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains:annotations:13.0 configuration runtime from candidates [org.jetbrains:annotations:13.0 configuration runtime] for {org.gradle.usage=java-api}
+19:29:03.345 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :compileClasspath' started
+19:29:03.345 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve files of :compileClasspath'
+19:29:03.345 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :compileClasspath' completed
+19:29:03.345 [DEBUG] [org.gradle.api.Task] [KOTLIN] compileKotlin destinationDir = /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/main
+19:29:03.345 [DEBUG] [org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter] Determining if task ':compileKotlin' is up-to-date
+19:29:03.345 [DEBUG] [org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository] Implementation for task ':compileKotlin': org.jetbrains.kotlin.gradle.tasks.KotlinCompile_Decorated@cac45e32be380696bd8dbbd150de8ec2
+19:29:03.345 [DEBUG] [org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository] Action implementations for task ':compileKotlin': [org.jetbrains.kotlin.gradle.tasks.KotlinCompile_Decorated@cac45e32be380696bd8dbbd150de8ec2]
+19:29:03.345 [DEBUG] [org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository] Fingerprinting property additionalClasspath (Classpath) for task ':compileKotlin'
+19:29:03.346 [DEBUG] [org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository] Fingerprinting property classpath (Classpath) for task ':compileKotlin'
+19:29:03.346 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :compileClasspath' started
+19:29:03.346 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve files of :compileClasspath'
+19:29:03.346 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :compileClasspath' completed
+19:29:03.346 [DEBUG] [org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository] Fingerprinting property computedCompilerClasspath$kotlin_gradle_plugin (Classpath) for task ':compileKotlin'
+19:29:03.346 [DEBUG] [org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository] Fingerprinting property pluginClasspath$kotlin_gradle_plugin (Classpath) for task ':compileKotlin'
+19:29:03.346 [DEBUG] [org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository] Fingerprinting property source (RelativePathInput) for task ':compileKotlin'
+19:29:03.346 [DEBUG] [org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository] Fingerprinting property destinationDir (Output) for task ':compileKotlin'
+19:29:03.347 [INFO] [org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter] Skipping task ':compileKotlin' as it is up-to-date.
+19:29:03.347 [DEBUG] [org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter] Removed task artifact state for {} from context.
+19:29:03.347 [DEBUG] [org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter] Finished executing task ':compileKotlin'
+19:29:03.347 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Task :compileKotlin'
+19:29:03.347 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Task :compileKotlin' completed
+19:29:03.347 [INFO] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] :compileKotlin (Thread[Task worker for ':',5,main]) completed. Took 0.009 secs.
+19:29:03.347 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': released lock on :
+19:29:03.347 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15 completed (1 worker(s) in use)
+19:29:03.347 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': released lock on root.1.15
+19:29:03.348 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': acquired lock on :
+19:29:03.348 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15 started (1 worker(s) in use).
+19:29:03.348 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': acquired lock on root.1.15
+19:29:03.348 [INFO] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] :compileJava (Thread[Task worker for ':',5,main]) started.
+19:29:03.348 [LIFECYCLE] [class org.gradle.internal.buildevents.TaskExecutionLogger] 
+19:29:03.348 [LIFECYCLE] [class org.gradle.internal.buildevents.TaskExecutionLogger] > Task :compileJava NO-SOURCE
+19:29:03.348 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Task :compileJava' started
+19:29:03.348 [DEBUG] [org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter] Starting to execute task ':compileJava'
+19:29:03.348 [DEBUG] [org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter] Putting task artifact state for task ':compileJava' into context took 0.0 secs.
+19:29:03.348 [INFO] [org.gradle.api.internal.file.collections.DirectoryFileTree] file or directory '/Users/ray/Exercism/kotlin/list-ops/src/main/java', not found
+19:29:03.348 [INFO] [org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter] Skipping task ':compileJava' as it has no source files and no previous output files.
+19:29:03.348 [DEBUG] [org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter] Removed task artifact state for {} from context.
+19:29:03.348 [DEBUG] [org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter] Finished executing task ':compileJava'
+19:29:03.348 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Task :compileJava'
+19:29:03.348 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Task :compileJava' completed
+19:29:03.348 [INFO] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] :compileJava (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+19:29:03.349 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': released lock on :
+19:29:03.349 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15 completed (1 worker(s) in use)
+19:29:03.349 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': released lock on root.1.15
+19:29:03.349 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': acquired lock on :
+19:29:03.349 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15 started (1 worker(s) in use).
+19:29:03.349 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': acquired lock on root.1.15
+19:29:03.349 [INFO] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] :processResources (Thread[Task worker for ':',5,main]) started.
+19:29:03.349 [LIFECYCLE] [class org.gradle.internal.buildevents.TaskExecutionLogger] 
+19:29:03.349 [LIFECYCLE] [class org.gradle.internal.buildevents.TaskExecutionLogger] > Task :processResources NO-SOURCE
+19:29:03.349 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Task :processResources' started
+19:29:03.349 [DEBUG] [org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter] Starting to execute task ':processResources'
+19:29:03.349 [DEBUG] [org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter] Putting task artifact state for task ':processResources' into context took 0.0 secs.
+19:29:03.349 [INFO] [org.gradle.api.internal.file.collections.DirectoryFileTree] file or directory '/Users/ray/Exercism/kotlin/list-ops/src/main/resources', not found
+19:29:03.349 [INFO] [org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter] Skipping task ':processResources' as it has no source files and no previous output files.
+19:29:03.349 [DEBUG] [org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter] Removed task artifact state for {} from context.
+19:29:03.350 [DEBUG] [org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter] Finished executing task ':processResources'
+19:29:03.350 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Task :processResources'
+19:29:03.350 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Task :processResources' completed
+19:29:03.350 [INFO] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] :processResources (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+19:29:03.350 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': released lock on :
+19:29:03.350 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15 completed (1 worker(s) in use)
+19:29:03.350 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': released lock on root.1.15
+19:29:03.350 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': acquired lock on :
+19:29:03.350 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15 started (1 worker(s) in use).
+19:29:03.350 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': acquired lock on root.1.15
+19:29:03.350 [INFO] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] :classes (Thread[Task worker for ':',5,main]) started.
+19:29:03.350 [LIFECYCLE] [class org.gradle.internal.buildevents.TaskExecutionLogger] 
+19:29:03.350 [LIFECYCLE] [class org.gradle.internal.buildevents.TaskExecutionLogger] > Task :classes UP-TO-DATE
+19:29:03.350 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Task :classes' started
+19:29:03.350 [DEBUG] [org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter] Starting to execute task ':classes'
+19:29:03.350 [INFO] [org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter] Skipping task ':classes' as it has no actions.
+19:29:03.350 [DEBUG] [org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter] Finished executing task ':classes'
+19:29:03.350 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Task :classes'
+19:29:03.350 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Task :classes' completed
+19:29:03.350 [INFO] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] :classes (Thread[Task worker for ':',5,main]) completed. Took 0.0 secs.
+19:29:03.351 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': released lock on :
+19:29:03.351 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15 completed (1 worker(s) in use)
+19:29:03.351 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': released lock on root.1.15
+19:29:03.351 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': acquired lock on :
+19:29:03.351 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15 started (1 worker(s) in use).
+19:29:03.351 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': acquired lock on root.1.15
+19:29:03.351 [INFO] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] :compileTestKotlin (Thread[Task worker for ':',5,main]) started.
+19:29:03.360 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15.25.33 started (2 worker(s) in use).
+19:29:03.360 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 6: acquired lock on root.1.15.25.33
+19:29:03.360 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15.25.32 started (3 worker(s) in use).
+19:29:03.360 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 8: acquired lock on root.1.15.25.32
+19:29:03.360 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.2.40)' completed
+19:29:03.360 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15.25.31 started (4 worker(s) in use).
+19:29:03.361 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 2: acquired lock on root.1.15.25.31
+19:29:03.361 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15.25.30 started (5 worker(s) in use).
+19:29:03.361 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 5: acquired lock on root.1.15.25.30
+19:29:03.361 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-test-common.jar (org.jetbrains.kotlin:kotlin-test-common:1.2.40)' completed
+19:29:03.361 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15.25.29 started (6 worker(s) in use).
+19:29:03.361 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 7: acquired lock on root.1.15.25.29
+19:29:03.362 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-test-annotations-common.jar (org.jetbrains.kotlin:kotlin-test-annotations-common:1.2.40)' completed
+19:29:03.362 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve hamcrest-core.jar (org.hamcrest:hamcrest-core:1.3)' completed
+19:29:03.361 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15.25.28 started (7 worker(s) in use).
+19:29:03.362 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 3: acquired lock on root.1.15.25.28
+19:29:03.362 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15.25.27 started (8 worker(s) in use).
+19:29:03.362 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve junit.jar (junit:junit:4.12)' completed
+19:29:03.362 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 4: acquired lock on root.1.15.25.27
+19:29:03.363 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve junit.jar (junit:junit:4.12)' completed
+19:29:03.363 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15.25.29 completed (7 worker(s) in use)
+19:29:03.363 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 7: released lock on root.1.15.25.29
+19:29:03.363 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15.25.30 completed (6 worker(s) in use)
+19:29:03.363 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 5: released lock on root.1.15.25.30
+19:29:03.363 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-test.jar (org.jetbrains.kotlin:kotlin-test:1.2.40)' completed
+19:29:03.363 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15.25.31 completed (5 worker(s) in use)
+19:29:03.364 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 2: released lock on root.1.15.25.31
+19:29:03.364 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15.25.32 completed (4 worker(s) in use)
+19:29:03.364 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 8: released lock on root.1.15.25.32
+19:29:03.364 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15.25.33 completed (3 worker(s) in use)
+19:29:03.364 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 6: released lock on root.1.15.25.33
+19:29:03.364 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15.25.27 completed (1 worker(s) in use)
+19:29:03.364 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 4: released lock on root.1.15.25.27
+19:29:03.364 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15.25.28 completed (1 worker(s) in use)
+19:29:03.364 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Build operations Thread 3: released lock on root.1.15.25.28
+19:29:03.387 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: accepted socket from [127.0.0.1:58579]
+19:29:03.387 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 80
+19:29:03.387 [DEBUG] [sun.rmi.loader] RMI TCP Connection(595)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@1d50ecbd
+19:29:03.387 [DEBUG] [sun.rmi.loader] RMI TCP Connection(595)-127.0.0.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@1d50ecbd
+19:29:03.388 [DEBUG] [sun.rmi.loader] RMI TCP Connection(595)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@1d50ecbd
+19:29:03.388 [DEBUG] [sun.rmi.loader] RMI TCP Connection(595)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@1d50ecbd
+19:29:03.388 [DEBUG] [sun.rmi.loader] RMI TCP Connection(595)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@1d50ecbd
+19:29:03.388 [DEBUG] [sun.rmi.loader] RMI TCP Connection(595)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@1d50ecbd
+19:29:03.389 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 80
+19:29:03.390 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 80
+19:29:03.390 [DEBUG] [org.gradle.api.Project] [KOTLIN] [IC] Non-incremental compilation will be performed: inputs' changes are unknown (first or clean build)
+19:29:03.392 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 80
+19:29:03.392 [DEBUG] [org.gradle.api.Project] [KOTLIN] [IC] Deleting output directories on rebuild:
+19:29:03.392 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 80
+19:29:03.393 [DEBUG] [org.gradle.api.Project] [KOTLIN] [IC] deleted /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/test
+19:29:03.393 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 80
+19:29:03.393 [DEBUG] [org.gradle.api.Project] [KOTLIN] [IC] deleted /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/test
+19:29:03.395 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 80
+19:29:03.395 [DEBUG] [org.gradle.api.Project] [KOTLIN] [IC] compiling with args: [-Xadd-compiler-builtins, -Xbuild-file=/var/folders/y5/qx5zn3596xs105t5lt_g6y540000gn/T/kjps8321808117358560803listops.script.xml, -classpath, /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/main:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.2.40/2db54d5a68dd6feecffdb3dd70511fe923039ac7/kotlin-test-junit-1.2.40.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.2.40/c3f602531da92165d978a139c2953f3acd9f02bf/kotlin-test-1.2.40.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.40/d39920020ab3e74f406a8e142fb94b360f3f80f8/kotlin-stdlib-1.2.40.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-annotations-common/1.2.40/2d4a60c84c93f625f5bffe4cc76b21b243688f5a/kotlin-test-annotations-common-1.2.40.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-common/1.2.40/2364922e3ca01d51cad8f585a2c8c8d731bb375a/kotlin-test-common-1.2.40.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.40/37abadf1cca4450f39672a80d24a379d2fd06356/kotlin-stdlib-common-1.2.40.jar, -Xload-builtins-from-dependencies, -module-name, list-ops, -no-reflect, -no-stdlib, -Xreport-output-files, -verbose]
+19:29:03.396 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 80
+19:29:03.396 [DEBUG] [org.gradle.api.Project] [KOTLIN] [IC] compiling with classpath: /Users/ray/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.40/37abadf1cca4450f39672a80d24a379d2fd06356/kotlin-stdlib-common-1.2.40.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.40/d39920020ab3e74f406a8e142fb94b360f3f80f8/kotlin-stdlib-1.2.40.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-annotations-common/1.2.40/2d4a60c84c93f625f5bffe4cc76b21b243688f5a/kotlin-test-annotations-common-1.2.40.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-common/1.2.40/2364922e3ca01d51cad8f585a2c8c8d731bb375a/kotlin-test-common-1.2.40.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.2.40/2db54d5a68dd6feecffdb3dd70511fe923039ac7/kotlin-test-junit-1.2.40.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.2.40/c3f602531da92165d978a139c2953f3acd9f02bf/kotlin-test-1.2.40.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar, /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/main
+19:29:03.397 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 80
+19:29:03.397 [DEBUG] [org.gradle.api.Task] v: Using Kotlin home directory <no_path>
+19:29:03.397 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 80
+19:29:03.397 [DEBUG] [org.gradle.api.Task] v: Configuring the compilation environment
+19:29:03.410 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 82
+19:29:03.410 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 80
+19:29:03.410 [DEBUG] [org.gradle.api.Task] v: Loading modules: [java.se, javafx.base, javafx.controls, javafx.fxml, javafx.graphics, javafx.media, javafx.swing, javafx.web, jdk.accessibility, jdk.attach, jdk.compiler, jdk.dynalink, jdk.httpserver, jdk.incubator.httpclient, jdk.jartool, jdk.javadoc, jdk.jconsole, jdk.jdi, jdk.jfr, jdk.jshell, jdk.jsobject, jdk.management, jdk.management.cmm, jdk.management.jfr, jdk.management.resource, jdk.net, jdk.packager, jdk.packager.services, jdk.scripting.nashorn, jdk.sctp, jdk.security.auth, jdk.security.jgss, jdk.unsupported, jdk.xml.dom, oracle.desktop, oracle.net, java.base, java.compiler, java.datatransfer, java.desktop, java.xml, java.instrument, java.logging, java.management, java.management.rmi, java.rmi, java.naming, java.prefs, java.scripting, java.security.jgss, java.security.sasl, java.sql, java.sql.rowset, java.xml.crypto, jdk.internal.jvmstat, jdk.management.agent, jdk.jdwp.agent, jdk.internal.ed, jdk.internal.le, jdk.internal.opt, jdk.jlink]
+19:29:03.435 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(594)-127.0.0.1: (port 57361) connection closed
+19:29:03.435 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(594)-127.0.0.1: close connection
+19:29:03.436 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(592)-127.0.0.1: (port 57361) connection closed
+19:29:03.436 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(592)-127.0.0.1: close connection
+19:29:03.436 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(596)-127.0.0.1: accepted socket from [127.0.0.1:58580]
+19:29:03.436 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(597)-127.0.0.1: accepted socket from [127.0.0.1:58581]
+19:29:03.436 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(597)-127.0.0.1: (port 57361) op = 80
+19:29:03.437 [DEBUG] [sun.rmi.loader] RMI TCP Connection(597)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@1d50ecbd
+19:29:03.437 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(596)-127.0.0.1: (port 57361) op = 80
+19:29:03.437 [DEBUG] [sun.rmi.loader] RMI TCP Connection(597)-127.0.0.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@1d50ecbd
+19:29:03.437 [DEBUG] [sun.rmi.loader] RMI TCP Connection(596)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@1d50ecbd
+19:29:03.437 [DEBUG] [sun.rmi.loader] RMI TCP Connection(596)-127.0.0.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@1d50ecbd
+19:29:03.437 [DEBUG] [sun.rmi.loader] RMI TCP Connection(597)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@1d50ecbd
+19:29:03.438 [DEBUG] [sun.rmi.loader] RMI TCP Connection(597)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@1d50ecbd
+19:29:03.438 [DEBUG] [sun.rmi.loader] RMI TCP Connection(597)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@1d50ecbd
+19:29:03.437 [DEBUG] [sun.rmi.loader] RMI TCP Connection(596)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@1d50ecbd
+19:29:03.439 [DEBUG] [sun.rmi.loader] RMI TCP Connection(596)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@1d50ecbd
+19:29:03.441 [DEBUG] [sun.rmi.loader] RMI TCP Connection(596)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@1d50ecbd
+19:29:03.481 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 82
+19:29:03.482 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 80
+19:29:03.482 [DEBUG] [sun.rmi.loader] RMI TCP Connection(595)-127.0.0.1: name = "org.jetbrains.kotlin.cli.common.messages.CompilerMessageLocation", codebase = ""
+19:29:03.482 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 82
+19:29:03.483 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 80
+19:29:03.483 [DEBUG] [sun.rmi.loader] RMI TCP Connection(595)-127.0.0.1: name = "org.jetbrains.kotlin.daemon.report.CompileIterationResult", codebase = ""
+19:29:03.483 [DEBUG] [sun.rmi.loader] RMI TCP Connection(595)-127.0.0.1: name = "java.util.Collections$SingletonSet", codebase = ""
+19:29:03.483 [DEBUG] [sun.rmi.loader] RMI TCP Connection(595)-127.0.0.1: name = "java.io.File", codebase = ""
+19:29:03.483 [DEBUG] [org.gradle.api.Project] [KOTLIN] compile iteration: src/test/kotlin/ListExtensionsTest.kt
+19:29:03.483 [DEBUG] [org.gradle.api.Project] [KOTLIN] compiler exit code: COMPILATION_ERROR
+19:29:03.484 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 82
+19:29:03.484 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) op = 80
+19:29:03.489 [DEBUG] [sun.rmi.server.call] RMI TCP Connection(595)-127.0.0.1: [127.0.0.1] exception: 
+java.lang.NoClassDefFoundError: com/sun/xml/internal/messaging/saaj/util/ByteOutputStream
+	at org.jetbrains.kotlin.incremental.JvmUtilsKt.getStackTraceStr(jvmUtils.kt:8)
+	at org.jetbrains.kotlin.incremental.BuildCacheStorage.withRegistry(BuildCacheStorage.kt:62)
+	at org.jetbrains.kotlin.incremental.multiproject.ArtifactDifferenceRegistryProvider$DefaultImpls.withRegistry(ArtifactDifferenceRegistry.kt:43)
+	at org.jetbrains.kotlin.incremental.BuildCacheStorage.withRegistry(BuildCacheStorage.kt:32)
+	at org.jetbrains.kotlin.compilerRunner.GradleIncrementalCompilerServicesFacadeImpl.unknownChanges(GradleIncrementalCompilerServicesFacadeImpl.kt:93)
+	at jdk.internal.reflect.GeneratedMethodAccessor191.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+19:29:03.492 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: (port 57361) connection closed
+19:29:03.492 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(595)-127.0.0.1: close connection
+19:29:03.492 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: accepted socket from [127.0.0.1:58582]
+19:29:03.493 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: (port 57361) op = 80
+19:29:03.493 [DEBUG] [org.gradle.api.Project] [KOTLIN] [IC] Possible cache corruption. Rebuilding. java.rmi.ServerError: Error occurred in server thread; nested exception is: 
+	java.lang.NoClassDefFoundError: com/sun/xml/internal/messaging/saaj/util/ByteOutputStream
+19:29:03.494 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: (port 57361) op = 80
+19:29:03.494 [DEBUG] [org.gradle.api.Project] [KOTLIN] [IC] Deleting output directories on rebuild:
+19:29:03.495 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: (port 57361) op = 80
+19:29:03.495 [DEBUG] [org.gradle.api.Project] [KOTLIN] [IC] deleted /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/test
+19:29:03.496 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: (port 57361) op = 80
+19:29:03.496 [DEBUG] [org.gradle.api.Project] [KOTLIN] [IC] deleted /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/test
+19:29:03.499 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: (port 57361) op = 80
+19:29:03.499 [DEBUG] [org.gradle.api.Project] [KOTLIN] [IC] compiling with args: [-Xadd-compiler-builtins, -Xbuild-file=/var/folders/y5/qx5zn3596xs105t5lt_g6y540000gn/T/kjps2262405139894870629listops.script.xml, -classpath, /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/main:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.2.40/2db54d5a68dd6feecffdb3dd70511fe923039ac7/kotlin-test-junit-1.2.40.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.2.40/c3f602531da92165d978a139c2953f3acd9f02bf/kotlin-test-1.2.40.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.40/d39920020ab3e74f406a8e142fb94b360f3f80f8/kotlin-stdlib-1.2.40.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-annotations-common/1.2.40/2d4a60c84c93f625f5bffe4cc76b21b243688f5a/kotlin-test-annotations-common-1.2.40.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-common/1.2.40/2364922e3ca01d51cad8f585a2c8c8d731bb375a/kotlin-test-common-1.2.40.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.40/37abadf1cca4450f39672a80d24a379d2fd06356/kotlin-stdlib-common-1.2.40.jar, -Xload-builtins-from-dependencies, -module-name, list-ops, -no-reflect, -no-stdlib, -Xreport-output-files, -verbose]
+19:29:03.500 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: (port 57361) op = 80
+19:29:03.500 [DEBUG] [org.gradle.api.Project] [KOTLIN] [IC] compiling with classpath: /Users/ray/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.40/37abadf1cca4450f39672a80d24a379d2fd06356/kotlin-stdlib-common-1.2.40.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.40/d39920020ab3e74f406a8e142fb94b360f3f80f8/kotlin-stdlib-1.2.40.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-annotations-common/1.2.40/2d4a60c84c93f625f5bffe4cc76b21b243688f5a/kotlin-test-annotations-common-1.2.40.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-common/1.2.40/2364922e3ca01d51cad8f585a2c8c8d731bb375a/kotlin-test-common-1.2.40.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.2.40/2db54d5a68dd6feecffdb3dd70511fe923039ac7/kotlin-test-junit-1.2.40.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.2.40/c3f602531da92165d978a139c2953f3acd9f02bf/kotlin-test-1.2.40.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar, /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/main
+19:29:03.502 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: (port 57361) op = 80
+19:29:03.502 [DEBUG] [org.gradle.api.Task] v: Using Kotlin home directory <no_path>
+19:29:03.503 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: (port 57361) op = 80
+19:29:03.503 [DEBUG] [org.gradle.api.Task] v: Configuring the compilation environment
+19:29:03.513 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: (port 57361) op = 82
+19:29:03.514 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: (port 57361) op = 80
+19:29:03.514 [DEBUG] [org.gradle.api.Task] v: Loading modules: [java.se, javafx.base, javafx.controls, javafx.fxml, javafx.graphics, javafx.media, javafx.swing, javafx.web, jdk.accessibility, jdk.attach, jdk.compiler, jdk.dynalink, jdk.httpserver, jdk.incubator.httpclient, jdk.jartool, jdk.javadoc, jdk.jconsole, jdk.jdi, jdk.jfr, jdk.jshell, jdk.jsobject, jdk.management, jdk.management.cmm, jdk.management.jfr, jdk.management.resource, jdk.net, jdk.packager, jdk.packager.services, jdk.scripting.nashorn, jdk.sctp, jdk.security.auth, jdk.security.jgss, jdk.unsupported, jdk.xml.dom, oracle.desktop, oracle.net, java.base, java.compiler, java.datatransfer, java.desktop, java.xml, java.instrument, java.logging, java.management, java.management.rmi, java.rmi, java.naming, java.prefs, java.scripting, java.security.jgss, java.security.sasl, java.sql, java.sql.rowset, java.xml.crypto, jdk.internal.jvmstat, jdk.management.agent, jdk.jdwp.agent, jdk.internal.ed, jdk.internal.le, jdk.internal.opt, jdk.jlink]
+19:29:03.571 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: (port 57361) op = 82
+19:29:03.572 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: (port 57361) op = 80
+19:29:03.572 [DEBUG] [sun.rmi.loader] RMI TCP Connection(598)-127.0.0.1: name = "org.jetbrains.kotlin.cli.common.messages.CompilerMessageLocation", codebase = ""
+19:29:03.572 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: (port 57361) op = 82
+19:29:03.573 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: (port 57361) op = 80
+19:29:03.573 [DEBUG] [sun.rmi.loader] RMI TCP Connection(598)-127.0.0.1: name = "org.jetbrains.kotlin.daemon.report.CompileIterationResult", codebase = ""
+19:29:03.573 [DEBUG] [sun.rmi.loader] RMI TCP Connection(598)-127.0.0.1: name = "java.util.Collections$SingletonSet", codebase = ""
+19:29:03.573 [DEBUG] [sun.rmi.loader] RMI TCP Connection(598)-127.0.0.1: name = "java.io.File", codebase = ""
+19:29:03.573 [DEBUG] [org.gradle.api.Project] [KOTLIN] compile iteration: src/test/kotlin/ListExtensionsTest.kt
+19:29:03.573 [DEBUG] [org.gradle.api.Project] [KOTLIN] compiler exit code: COMPILATION_ERROR
+19:29:03.574 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: (port 57361) op = 82
+19:29:03.574 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: (port 57361) op = 80
+19:29:03.574 [DEBUG] [sun.rmi.server.call] RMI TCP Connection(598)-127.0.0.1: [127.0.0.1] exception: 
+java.lang.NoClassDefFoundError: com/sun/xml/internal/messaging/saaj/util/ByteOutputStream
+	at org.jetbrains.kotlin.incremental.JvmUtilsKt.getStackTraceStr(jvmUtils.kt:8)
+	at org.jetbrains.kotlin.incremental.BuildCacheStorage.withRegistry(BuildCacheStorage.kt:62)
+	at org.jetbrains.kotlin.incremental.multiproject.ArtifactDifferenceRegistryProvider$DefaultImpls.withRegistry(ArtifactDifferenceRegistry.kt:43)
+	at org.jetbrains.kotlin.incremental.BuildCacheStorage.withRegistry(BuildCacheStorage.kt:32)
+	at org.jetbrains.kotlin.compilerRunner.GradleIncrementalCompilerServicesFacadeImpl.unknownChanges(GradleIncrementalCompilerServicesFacadeImpl.kt:93)
+	at jdk.internal.reflect.GeneratedMethodAccessor191.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+19:29:03.575 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: (port 57361) connection closed
+19:29:03.576 [DEBUG] [sun.rmi.transport.tcp] RMI TCP Connection(598)-127.0.0.1: close connection
+19:29:04.724 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] DaemonExpirationPeriodicCheck running
+19:29:04.724 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+19:29:04.724 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+19:29:04.724 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+19:29:04.724 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+19:29:04.725 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+19:29:04.725 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+19:29:05.146 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting OS memory status event {Total: 17179869184, Free: 5522141184}
+19:29:05.146 [DEBUG] [org.gradle.launcher.daemon.server.health.LowMemoryDaemonExpirationStrategy] Received memory status update: {Total: 17179869184, Free: 5522141184}
+19:29:05.146 [DEBUG] [org.gradle.process.internal.health.memory.MemoryManager] Emitting JVM memory status event {Maximum: 1073741824, Committed: 268435456}
+19:29:03.351 [LIFECYCLE] [class org.gradle.internal.buildevents.TaskExecutionLogger] 
+19:29:03.351 [LIFECYCLE] [class org.gradle.internal.buildevents.TaskExecutionLogger] > Task :compileTestKotlin
+19:29:03.351 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Task :compileTestKotlin' started
+19:29:03.351 [DEBUG] [org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter] Starting to execute task ':compileTestKotlin'
+19:29:03.351 [DEBUG] [org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter] Putting task artifact state for task ':compileTestKotlin' into context took 0.0 secs.
+19:29:03.352 [DEBUG] [org.gradle.api.Task] [KOTLIN] args.coroutinesState=warn
+19:29:03.352 [DEBUG] [org.gradle.api.Task] [KOTLIN] args.moduleName = list-ops
+19:29:03.352 [DEBUG] [org.gradle.api.Task] [KOTLIN] args.friendPaths = /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/main
+19:29:03.352 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve dependencies of :testCompileClasspath' started
+19:29:03.353 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver] Resolving configuration ':testCompileClasspath'
+19:29:03.353 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.modulecache.ResolvedArtifactCaches] Reusing in-memory cache for repo 'MavenRepo' [f8e6315c37eb56998f7a5ba08e30db71].
+19:29:03.353 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration :list-ops:unspecified(testCompileClasspath).
+19:29:03.353 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-stdlib:1.2.40 using repositories [MavenRepo]
+19:29:03.353 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-stdlib:1.2.40' in 'MavenRepo'
+19:29:03.354 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-stdlib:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.354 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] No candidates for {org.gradle.usage=java-api}, selected matching fallback org.jetbrains.kotlin:kotlin-stdlib:1.2.40 configuration default
+19:29:03.354 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for junit:junit:4.12 using repositories [MavenRepo]
+19:29:03.354 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'junit:junit:4.12' in 'MavenRepo'
+19:29:03.354 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using junit:junit:4.12 from Maven repository 'MavenRepo'
+19:29:03.354 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] No candidates for {org.gradle.usage=java-api}, selected matching fallback junit:junit:4.12 configuration default
+19:29:03.354 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-test-junit:1.2.40 using repositories [MavenRepo]
+19:29:03.354 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-test-junit:1.2.40' in 'MavenRepo'
+19:29:03.354 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-test-junit:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.354 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] No candidates for {org.gradle.usage=java-api}, selected matching fallback org.jetbrains.kotlin:kotlin-test-junit:1.2.40 configuration default
+19:29:03.354 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-stdlib:1.2.40(default).
+19:29:03.354 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains:annotations:13.0 using repositories [MavenRepo]
+19:29:03.354 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains:annotations:13.0' in 'MavenRepo'
+19:29:03.355 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains:annotations:13.0 from Maven repository 'MavenRepo'
+19:29:03.355 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration junit:junit:4.12(default).
+19:29:03.355 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.hamcrest:hamcrest-core:1.3 using repositories [MavenRepo]
+19:29:03.355 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.hamcrest:hamcrest-core:1.3' in 'MavenRepo'
+19:29:03.355 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.hamcrest:hamcrest-core:1.3 from Maven repository 'MavenRepo'
+19:29:03.355 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-test-junit:1.2.40(default).
+19:29:03.355 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-test-annotations-common:1.2.40 using repositories [MavenRepo]
+19:29:03.356 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-test-annotations-common:1.2.40' in 'MavenRepo'
+19:29:03.356 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-test-annotations-common:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.356 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-test:1.2.40 using repositories [MavenRepo]
+19:29:03.356 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-test:1.2.40' in 'MavenRepo'
+19:29:03.356 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-test:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.356 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains:annotations:13.0(runtime).
+19:29:03.356 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.hamcrest:hamcrest-core:1.3(runtime).
+19:29:03.356 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-test-annotations-common:1.2.40(runtime).
+19:29:03.356 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-stdlib-common:1.2.40 using repositories [MavenRepo]
+19:29:03.356 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-stdlib-common:1.2.40' in 'MavenRepo'
+19:29:03.356 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-stdlib-common:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.357 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-test:1.2.40(runtime).
+19:29:03.357 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Attempting to resolve component for org.jetbrains.kotlin:kotlin-test-common:1.2.40 using repositories [MavenRepo]
+19:29:03.357 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Using cached module metadata for module 'org.jetbrains.kotlin:kotlin-test-common:1.2.40' in 'MavenRepo'
+19:29:03.357 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver] Using org.jetbrains.kotlin:kotlin-test-common:1.2.40 from Maven repository 'MavenRepo'
+19:29:03.357 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration junit:junit:4.12(runtime).
+19:29:03.357 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-stdlib-common:1.2.40(runtime).
+19:29:03.357 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-test-common:1.2.40(runtime).
+19:29:03.357 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-stdlib:1.2.40(runtime).
+19:29:03.357 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.hamcrest:hamcrest-core:1.3(runtime).
+19:29:03.357 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Changed edges for org.hamcrest:hamcrest-core:1.3(runtime) selects same versions as previous traversal. ignoring
+19:29:03.358 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains.kotlin:kotlin-stdlib-common:1.2.40(runtime).
+19:29:03.358 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Changed edges for org.jetbrains.kotlin:kotlin-stdlib-common:1.2.40(runtime) selects same versions as previous traversal. ignoring
+19:29:03.358 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Visiting configuration org.jetbrains:annotations:13.0(runtime).
+19:29:03.358 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder] Changed edges for org.jetbrains:annotations:13.0(runtime) selects same versions as previous traversal. ignoring
+19:29:03.358 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.oldresult.TransientConfigurationResultsBuilder] Flushing resolved configuration data in Binary store in /private/var/folders/y5/qx5zn3596xs105t5lt_g6y540000gn/T/gradle5615521458624393644.bin. Wrote root 2.
+19:29:03.358 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve dependencies of :testCompileClasspath'
+19:29:03.358 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve dependencies of :testCompileClasspath' completed
+19:29:03.358 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-test-junit:1.2.40 configuration default from candidates [org.jetbrains.kotlin:kotlin-test-junit:1.2.40 configuration default] for {org.gradle.usage=java-api}
+19:29:03.358 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-test:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-test:1.2.40 configuration runtime] for {org.gradle.usage=java-api}
+19:29:03.359 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-stdlib:1.2.40 configuration default from candidates [org.jetbrains.kotlin:kotlin-stdlib:1.2.40 configuration default] for {org.gradle.usage=java-api}
+19:29:03.359 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-stdlib:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-stdlib:1.2.40 configuration runtime] for {org.gradle.usage=java-api}
+19:29:03.359 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match junit:junit:4.12 configuration default from candidates [junit:junit:4.12 configuration default] for {org.gradle.usage=java-api}
+19:29:03.359 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match junit:junit:4.12 configuration runtime from candidates [junit:junit:4.12 configuration runtime] for {org.gradle.usage=java-api}
+19:29:03.359 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains:annotations:13.0 configuration runtime from candidates [org.jetbrains:annotations:13.0 configuration runtime] for {org.gradle.usage=java-api}
+19:29:03.359 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.hamcrest:hamcrest-core:1.3 configuration runtime from candidates [org.hamcrest:hamcrest-core:1.3 configuration runtime] for {org.gradle.usage=java-api}
+19:29:03.359 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-test-annotations-common:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-test-annotations-common:1.2.40 configuration runtime] for {org.gradle.usage=java-api}
+19:29:03.359 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-test-common:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-test-common:1.2.40 configuration runtime] for {org.gradle.usage=java-api}
+19:29:03.359 [DEBUG] [org.gradle.internal.component.model.ComponentAttributeMatcher] Selected match org.jetbrains.kotlin:kotlin-stdlib-common:1.2.40 configuration runtime from candidates [org.jetbrains.kotlin:kotlin-stdlib-common:1.2.40 configuration runtime] for {org.gradle.usage=java-api}
+19:29:03.359 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :testCompileClasspath' started
+19:29:03.359 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15.25.26 started (1 worker(s) in use).
+19:29:03.359 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': acquired lock on root.1.15.25.26
+19:29:03.360 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-test-junit.jar (org.jetbrains.kotlin:kotlin-test-junit:1.2.40)' started
+19:29:03.360 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.2.40)' started
+19:29:03.360 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.2.40)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.40/37abadf1cca4450f39672a80d24a379d2fd06356/kotlin-stdlib-common-1.2.40.jar
+19:29:03.360 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.2.40)'
+19:29:03.360 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'kotlin-test-junit.jar (org.jetbrains.kotlin:kotlin-test-junit:1.2.40)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.2.40/2db54d5a68dd6feecffdb3dd70511fe923039ac7/kotlin-test-junit-1.2.40.jar
+19:29:03.360 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve kotlin-test-junit.jar (org.jetbrains.kotlin:kotlin-test-junit:1.2.40)'
+19:29:03.360 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-test-junit.jar (org.jetbrains.kotlin:kotlin-test-junit:1.2.40)' completed
+19:29:03.361 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-test-common.jar (org.jetbrains.kotlin:kotlin-test-common:1.2.40)' started
+19:29:03.361 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'kotlin-test-common.jar (org.jetbrains.kotlin:kotlin-test-common:1.2.40)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-common/1.2.40/2364922e3ca01d51cad8f585a2c8c8d731bb375a/kotlin-test-common-1.2.40.jar
+19:29:03.361 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve kotlin-test-common.jar (org.jetbrains.kotlin:kotlin-test-common:1.2.40)'
+19:29:03.361 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-test-annotations-common.jar (org.jetbrains.kotlin:kotlin-test-annotations-common:1.2.40)' started
+19:29:03.361 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve hamcrest-core.jar (org.hamcrest:hamcrest-core:1.3)' started
+19:29:03.361 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'kotlin-test-annotations-common.jar (org.jetbrains.kotlin:kotlin-test-annotations-common:1.2.40)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-annotations-common/1.2.40/2d4a60c84c93f625f5bffe4cc76b21b243688f5a/kotlin-test-annotations-common-1.2.40.jar
+19:29:03.361 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve kotlin-test-annotations-common.jar (org.jetbrains.kotlin:kotlin-test-annotations-common:1.2.40)'
+19:29:03.361 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'hamcrest-core.jar (org.hamcrest:hamcrest-core:1.3)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar
+19:29:03.362 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve hamcrest-core.jar (org.hamcrest:hamcrest-core:1.3)'
+19:29:03.362 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve junit.jar (junit:junit:4.12)' started
+19:29:03.362 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'junit.jar (junit:junit:4.12)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar
+19:29:03.362 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve junit.jar (junit:junit:4.12)'
+19:29:03.362 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve junit.jar (junit:junit:4.12)' started
+19:29:03.362 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve junit.jar (junit:junit:4.12)'
+19:29:03.363 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve kotlin-test.jar (org.jetbrains.kotlin:kotlin-test:1.2.40)' started
+19:29:03.363 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository] Found artifact 'kotlin-test.jar (org.jetbrains.kotlin:kotlin-test:1.2.40)' in resolver cache: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.2.40/c3f602531da92165d978a139c2953f3acd9f02bf/kotlin-test-1.2.40.jar
+19:29:03.363 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve kotlin-test.jar (org.jetbrains.kotlin:kotlin-test:1.2.40)'
+19:29:03.364 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15.25.26 completed (2 worker(s) in use)
+19:29:03.364 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': released lock on root.1.15.25.26
+19:29:03.364 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve files of :testCompileClasspath'
+19:29:03.365 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :testCompileClasspath' completed
+19:29:03.365 [DEBUG] [org.gradle.api.Task] [KOTLIN] compileTestKotlin destinationDir = /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/test
+19:29:03.365 [DEBUG] [org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter] Determining if task ':compileTestKotlin' is up-to-date
+19:29:03.366 [DEBUG] [org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository] Implementation for task ':compileTestKotlin': org.jetbrains.kotlin.gradle.tasks.KotlinCompile_Decorated@cac45e32be380696bd8dbbd150de8ec2
+19:29:03.366 [DEBUG] [org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository] Action implementations for task ':compileTestKotlin': [org.jetbrains.kotlin.gradle.tasks.KotlinCompile_Decorated@cac45e32be380696bd8dbbd150de8ec2]
+19:29:03.366 [DEBUG] [org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository] Fingerprinting property additionalClasspath (Classpath) for task ':compileTestKotlin'
+19:29:03.366 [DEBUG] [org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository] Fingerprinting property classpath (Classpath) for task ':compileTestKotlin'
+19:29:03.366 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :testCompileClasspath' started
+19:29:03.367 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve files of :testCompileClasspath'
+19:29:03.367 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :testCompileClasspath' completed
+19:29:03.367 [DEBUG] [org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository] Fingerprinting property computedCompilerClasspath$kotlin_gradle_plugin (Classpath) for task ':compileTestKotlin'
+19:29:03.367 [DEBUG] [org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository] Fingerprinting property pluginClasspath$kotlin_gradle_plugin (Classpath) for task ':compileTestKotlin'
+19:29:03.367 [DEBUG] [org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository] Fingerprinting property source (RelativePathInput) for task ':compileTestKotlin'
+19:29:03.368 [DEBUG] [org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository] Fingerprinting property destinationDir (Output) for task ':compileTestKotlin'
+19:29:03.368 [INFO] [org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter] Task ':compileTestKotlin' is not up-to-date because:
+  Task has failed previously.
+19:29:03.368 [DEBUG] [org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter] Ensuring directory exists for property destinationDir (Output) at /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/test
+19:29:03.368 [DEBUG] [org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter] Executing actions for task ':compileTestKotlin'.
+19:29:03.369 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute execute for :compileTestKotlin' started
+19:29:03.369 [INFO] [org.gradle.api.internal.changedetection.changes.RebuildIncrementalTaskInputs] All input files are considered out-of-date for incremental task ':compileTestKotlin'.
+19:29:03.369 [INFO] [org.gradle.api.internal.file.collections.DirectoryFileTree] file or directory '/Users/ray/Exercism/kotlin/list-ops/src/test/java', not found
+19:29:03.369 [INFO] [org.gradle.api.internal.file.collections.DirectoryFileTree] file or directory '/Users/ray/Exercism/kotlin/list-ops/src/test/java', not found
+19:29:03.369 [DEBUG] [org.gradle.api.Task] [KOTLIN] all kotlin sources: src/test/kotlin/ListExtensionsTest.kt
+19:29:03.369 [DEBUG] [org.gradle.api.Task] [KOTLIN] compileTestKotlin source roots: [
+	/Users/ray/Exercism/kotlin/list-ops/src/test/kotlin/ListExtensionsTest.kt]
+19:29:03.369 [DEBUG] [org.gradle.api.Task] [KOTLIN] compileTestKotlin java source roots: [
+	]
+19:29:03.370 [DEBUG] [org.gradle.api.Task] [KOTLIN] args.coroutinesState=warn
+19:29:03.370 [DEBUG] [org.gradle.api.Task] [KOTLIN] args.moduleName = list-ops
+19:29:03.370 [DEBUG] [org.gradle.api.Task] [KOTLIN] args.friendPaths = /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/main
+19:29:03.370 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :testCompileClasspath' started
+19:29:03.370 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Resolve files of :testCompileClasspath'
+19:29:03.370 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Resolve files of :testCompileClasspath' completed
+19:29:03.370 [DEBUG] [org.gradle.api.Task] [KOTLIN] compileTestKotlin destinationDir = /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/test
+19:29:03.370 [INFO] [org.gradle.api.Task] Using Kotlin incremental compilation
+19:29:03.371 [DEBUG] [org.gradle.api.Project] [KOTLIN] Kotlin compiler class: org.jetbrains.kotlin.cli.jvm.K2JVMCompiler
+19:29:03.371 [DEBUG] [org.gradle.api.Project] [KOTLIN] Kotlin compiler classpath: /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.2.40/94ec38ee25d34165f97f9d0feccd6573aecdf8a2/kotlin-compiler-embeddable-1.2.40.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.40/d39920020ab3e74f406a8e142fb94b360f3f80f8/kotlin-stdlib-1.2.40.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.2.40/f9f881f1db66ba70870ab1cddc409142401b6cf0/kotlin-script-runtime-1.2.40.jar, /Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.40/d984261ef3ff59acfa4e8c0480c6e01df40853a4/kotlin-reflect-1.2.40.jar
+19:29:03.371 [DEBUG] [org.gradle.api.Project] [KOTLIN] Kotlin compiler args: -Xadd-compiler-builtins -Xbuild-file=/var/folders/y5/qx5zn3596xs105t5lt_g6y540000gn/T/kjps17102026858282338140listops.script.xml -classpath /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/main:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.2.40/2db54d5a68dd6feecffdb3dd70511fe923039ac7/kotlin-test-junit-1.2.40.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.2.40/c3f602531da92165d978a139c2953f3acd9f02bf/kotlin-test-1.2.40.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.40/d39920020ab3e74f406a8e142fb94b360f3f80f8/kotlin-stdlib-1.2.40.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-annotations-common/1.2.40/2d4a60c84c93f625f5bffe4cc76b21b243688f5a/kotlin-test-annotations-common-1.2.40.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-common/1.2.40/2364922e3ca01d51cad8f585a2c8c8d731bb375a/kotlin-test-common-1.2.40.jar:/Users/ray/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.40/37abadf1cca4450f39672a80d24a379d2fd06356/kotlin-stdlib-common-1.2.40.jar -d /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/test -Xload-builtins-from-dependencies -module-name list-ops -no-reflect -no-stdlib -verbose
+19:29:03.372 [DEBUG] [org.gradle.api.Project] [KOTLIN] Existing client-is-alive flag file: /private/var/folders/y5/qx5zn3596xs105t5lt_g6y540000gn/T/kotlin-compiler-in-helloworld-.alive
+19:29:03.372 [DEBUG] [org.gradle.api.Project] [KOTLIN] Created session-is-alive flag file: build/kotlin/sessions/kotlin-compiler-.salive
+19:29:03.373 [DEBUG] [sun.rmi.client.ref] Task worker for ':': get connection
+19:29:03.374 [DEBUG] [sun.rmi.transport.tcp] Task worker for ':': reuse connection
+19:29:03.374 [DEBUG] [sun.rmi.loader] Task worker for ':': interfaces = [org.jetbrains.kotlin.daemon.common.CompileService], codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.374 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "java.lang.reflect.Proxy", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.375 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "java.rmi.server.RemoteObjectInvocationHandler", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.375 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "java.rmi.server.RemoteObject", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.375 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "org.jetbrains.kotlin.daemon.common.LoopbackNetworkInterface$ClientLoopbackSocketFactory", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.375 [DEBUG] [sun.rmi.client.ref] Task worker for ':': free connection (reuse = true)
+19:29:03.375 [DEBUG] [sun.rmi.transport.tcp] Task worker for ':': reuse connection
+19:29:03.376 [DEBUG] [sun.rmi.client.ref] Task worker for ':': get connection
+19:29:03.376 [DEBUG] [sun.rmi.transport.tcp] Task worker for ':': create connection
+19:29:03.378 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.378 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.378 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "[B", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.378 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "java.rmi.server.UID", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.378 [DEBUG] [sun.rmi.client.ref] Task worker for ':': free connection (reuse = true)
+19:29:03.379 [DEBUG] [sun.rmi.transport.tcp] Task worker for ':': reuse connection
+19:29:03.379 [DEBUG] [sun.rmi.transport.tcp] Task worker for ':': create reaper
+19:29:03.379 [DEBUG] [sun.rmi.transport.tcp] Task worker for ':': reuse connection
+19:29:03.380 [DEBUG] [sun.rmi.transport.tcp] Task worker for ':': reuse connection
+19:29:03.380 [DEBUG] [sun.rmi.transport.tcp] Task worker for ':': reuse connection
+19:29:03.380 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "org.jetbrains.kotlin.daemon.common.CompileService$CallResult$Good", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.381 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "org.jetbrains.kotlin.daemon.common.CompileService$CallResult", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.381 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "org.jetbrains.kotlin.daemon.common.DaemonJVMOptions", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.381 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "java.util.ArrayList", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.381 [DEBUG] [sun.rmi.client.ref] Task worker for ':': free connection (reuse = true)
+19:29:03.381 [DEBUG] [sun.rmi.transport.tcp] Task worker for ':': reuse connection
+19:29:03.382 [DEBUG] [sun.rmi.transport.tcp] Task worker for ':': reuse connection
+19:29:03.383 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "org.jetbrains.kotlin.daemon.common.CompileService$CallResult$Ok", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.383 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "org.jetbrains.kotlin.daemon.common.CompileService$CallResult", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.383 [DEBUG] [sun.rmi.client.ref] Task worker for ':': free connection (reuse = true)
+19:29:03.383 [DEBUG] [sun.rmi.transport.tcp] Task worker for ':': reuse connection
+19:29:03.383 [DEBUG] [sun.rmi.transport.tcp] Task worker for ':': reuse connection
+19:29:03.384 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "org.jetbrains.kotlin.daemon.common.CompileService$CallResult$Good", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.384 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "org.jetbrains.kotlin.daemon.common.CompileService$CallResult", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.384 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "java.lang.Integer", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.384 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "java.lang.Number", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.385 [DEBUG] [sun.rmi.client.ref] Task worker for ':': free connection (reuse = true)
+19:29:03.385 [DEBUG] [sun.rmi.transport.tcp] Task worker for ':': reuse connection
+19:29:03.385 [INFO] [org.gradle.api.Task] i: found daemon on port 17425 (16122148 ms old), trying to connect
+19:29:03.385 [INFO] [org.gradle.api.Task] i: connected to the daemon
+19:29:03.385 [INFO] [org.gradle.api.Project] Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 1, 2, 3, 4], reportSeverity=3, requestedCompilationResults=[0]), areFileChangesKnown=false, modifiedFiles=null, deletedFiles=null, workingDir=/Users/ray/Exercism/kotlin/list-ops/build/kotlin/compileTestKotlin, customCacheVersionFileName='gradle-format-version.txt', customCacheVersion=4, resultDifferenceFile=/Users/ray/Exercism/kotlin/list-ops/build/kotlin/compileTestKotlin/build-history.bin, friendDifferenceFile=/Users/ray/Exercism/kotlin/list-ops/build/kotlin/compileKotlin/build-history.bin, usePreciseJavaTracking=truelocalStateDirs=[/Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/test])
+19:29:03.385 [DEBUG] [sun.rmi.transport.tcp] Task worker for ':': reuse connection
+19:29:03.576 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "org.jetbrains.kotlin.daemon.common.CompileService$CallResult$Error", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.576 [DEBUG] [sun.rmi.loader] Task worker for ':': name = "org.jetbrains.kotlin.daemon.common.CompileService$CallResult", codebase = "", defaultLoader = org.gradle.internal.classloader.VisitableURLClassLoader@3146c108
+19:29:03.576 [DEBUG] [sun.rmi.client.ref] Task worker for ':': free connection (reuse = true)
+19:29:03.577 [DEBUG] [sun.rmi.transport.tcp] Task worker for ':': reuse connection
+19:29:03.577 [WARN] [org.gradle.api.Project] Compilation with Kotlin compile daemon was not successful
+19:29:03.580 [DEBUG] [sun.rmi.transport.tcp] Task worker for ':': reuse connection
+19:29:03.580 [DEBUG] [sun.rmi.client.ref] Task worker for ':': free connection (reuse = true)
+19:29:03.580 [DEBUG] [sun.rmi.transport.tcp] Task worker for ':': reuse connection
+19:29:03.580 [DEBUG] [org.gradle.api.Project] Finished executing kotlin compiler using daemon strategy
+19:29:03.581 [WARN] [org.gradle.api.Project] Could not connect to kotlin daemon. Using fallback strategy.
+19:29:06.274 [LIFECYCLE] [system.err] 
+19:29:05.397 [LIFECYCLE] [class org.gradle.internal.buildevents.TaskExecutionLogger] 
+19:29:05.397 [LIFECYCLE] [class org.gradle.internal.buildevents.TaskExecutionLogger] > Task :compileTestKotlin FAILED
+19:29:06.313 [DEBUG] [org.gradle.api.Project] Finished executing kotlin compiler using out-of-process strategy
+19:29:06.313 [INFO] [org.gradle.api.Task] [KOTLIN] deleting /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/test on error
+19:29:06.314 [INFO] [org.gradle.api.Task] [KOTLIN] deleting /Users/ray/Exercism/kotlin/list-ops/build/classes/kotlin/test on error
+19:29:06.316 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Execute execute for :compileTestKotlin'
+19:29:06.316 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Execute execute for :compileTestKotlin' completed
+19:29:06.316 [DEBUG] [org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository] Fingerprinting property destinationDir (Output) for task ':compileTestKotlin'
+19:29:06.316 [DEBUG] [org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter] Removed task artifact state for {} from context.
+19:29:06.316 [DEBUG] [org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter] Finished executing task ':compileTestKotlin'
+19:29:06.316 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Task :compileTestKotlin'
+19:29:06.316 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Task :compileTestKotlin' completed
+19:29:06.316 [INFO] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] :compileTestKotlin (Thread[Task worker for ':',5,main]) completed. Took 2.964 secs.
+19:29:06.317 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': released lock on :
+19:29:06.317 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1.15 completed (1 worker(s) in use)
+19:29:06.317 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Task worker for ':': released lock on root.1.15
+19:29:06.317 [DEBUG] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] Task worker [Thread[Task worker for ':',5,main]] finished, busy: 2.973 secs, idle: 0.006 secs
+19:29:06.317 [DEBUG] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] Task worker [Thread[Task worker for ':' Thread 3,5,main]] finished, busy: 0.0 secs, idle: 2.979 secs
+19:29:06.317 [DEBUG] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] Task worker [Thread[Task worker for ':' Thread 2,5,main]] finished, busy: 0.0 secs, idle: 2.979 secs
+19:29:06.317 [DEBUG] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] Task worker [Thread[Daemon worker Thread 30,5,main]] finished, busy: 0.0 secs, idle: 2.979 secs
+19:29:06.317 [DEBUG] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] Task worker [Thread[Task worker for ':' Thread 7,5,main]] finished, busy: 0.0 secs, idle: 2.979 secs
+19:29:06.317 [DEBUG] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] Task worker [Thread[Task worker for ':' Thread 6,5,main]] finished, busy: 0.0 secs, idle: 2.979 secs
+19:29:06.317 [DEBUG] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] Task worker [Thread[Task worker for ':' Thread 5,5,main]] finished, busy: 0.0 secs, idle: 2.979 secs
+19:29:06.317 [DEBUG] [org.gradle.execution.taskgraph.DefaultTaskPlanExecutor] Task worker [Thread[Task worker for ':' Thread 4,5,main]] finished, busy: 0.0 secs, idle: 2.979 secs
+19:29:06.318 [DEBUG] [org.gradle.execution.taskgraph.DefaultTaskExecutionGraph] Timing: Executing the DAG took 2.981 secs
+19:29:06.319 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Run tasks'
+19:29:06.319 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Run tasks' completed
+19:29:06.321 [LIFECYCLE] [org.gradle.internal.buildevents.BuildResultLogger] 2 actionable tasks: 1 executed, 1 up-to-date
+19:29:06.321 [DEBUG] [org.jetbrains.kotlin.gradle.plugin.KotlinGradleBuildServices] [KOTLIN] Cleanup after kotlin
+19:29:06.321 [DEBUG] [org.jetbrains.kotlin.gradle.plugin.CompilerServicesCleanup] [KOTLIN] compiler services cleanup
+19:29:06.322 [DEBUG] [org.jetbrains.kotlin.gradle.plugin.KotlinGradleBuildServices] [KOTLIN] Deleted session-is-alive flag file: build/kotlin/sessions/kotlin-compiler-.salive
+19:29:06.323 [DEBUG] [org.jetbrains.kotlin.gradle.plugin.KotlinGradleBuildServices] [KOTLIN] Disposed KotlinGradleBuildServices
+19:29:06.323 [DEBUG] [org.gradle.internal.work.DefaultWorkerLeaseService] Worker lease root.1 completed (0 worker(s) in use)
+19:29:06.323 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker Thread 30: released lock on root.1
+19:29:06.323 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Completing Build operation 'Run build'
+19:29:06.324 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] Build operation 'Run build' completed
+19:29:06.324 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file content cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/fileContent)
+19:29:06.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file content cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/fileContent).
+19:29:06.325 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for task history cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/taskHistory)
+19:29:06.325 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on task history cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/taskHistory).
+19:29:06.326 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for Build Output Cleanup Cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/buildOutputCleanup)
+19:29:06.326 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on Build Output Cleanup Cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/buildOutputCleanup).
+19:29:06.327 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for cache directory md-supplier (/Users/ray/.gradle/caches/4.10.1/md-supplier)
+19:29:06.327 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cache directory md-supplier (/Users/ray/.gradle/caches/4.10.1/md-supplier).
+19:29:06.328 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for cache directory md-rule (/Users/ray/.gradle/caches/4.10.1/md-rule)
+19:29:06.328 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cache directory md-rule (/Users/ray/.gradle/caches/4.10.1/md-rule).
+19:29:06.329 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+19:29:06.329 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.CachedStoreFactory] Resolution result cache closed. Cache reads: 0, disk reads: 0 (avg: 0.0 secs, total: 0.0 secs)
+19:29:06.330 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 4 resolution results binary files in 0.001 secs
+19:29:06.330 [DEBUG] [org.gradle.deployment.internal.DefaultDeploymentRegistry] Stopping 0 deployment handles
+19:29:06.330 [DEBUG] [org.gradle.deployment.internal.DefaultDeploymentRegistry] Stopped deployment handles
+19:29:06.331 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file hash cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/fileHashes)
+19:29:06.331 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file hash cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/fileHashes).
+19:29:06.331 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] VCS Checkout Cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/vcs-1) has last been fully cleaned up 0 hours ago
+19:29:06.331 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache VCS Checkout Cache (/Users/ray/Exercism/kotlin/list-ops/.gradle/vcs-1) was closed 0 times.
+19:29:06.331 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache VCS metadata (/Users/ray/Exercism/kotlin/list-ops/.gradle/4.10.1/vcsMetadata-1) was closed 0 times.
+19:29:06.332 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+19:29:06.363 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientInputForwarder] Dispatching close input message: org.gradle.launcher.daemon.protocol.CloseInput@7ca590c9
+19:29:06.363 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 16: dispatching class org.gradle.launcher.daemon.protocol.CloseInput
+19:29:06.364 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Received result Failure[value=org.gradle.initialization.ReportedException: org.gradle.internal.exceptions.LocationAwareException: Execution failed for task ':compileTestKotlin'.] from daemon DaemonInfo{pid=33406, address=[bf1298f0-6ac5-429e-b654-ed588b89c2bc port:57311, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], state=Idle, lastBusy=1537313334966, context=DefaultDaemonContext[uid=1da7d388-e7d9-4fad-a4a8-3c202f1b6104,javaHome=/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home,daemonRegistryDir=/Users/ray/.gradle/daemon,pid=33406,idleTimeout=10800000,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} (build should be done).
+19:29:06.364 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 1: dispatching class org.gradle.launcher.daemon.protocol.Finished
+19:29:06.365 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 1: connection stop
