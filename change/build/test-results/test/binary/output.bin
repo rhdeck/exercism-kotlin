@@ -1,0 +1,70 @@
+Starting with 94
+"For 94 Adding 9 couns of value 10
+ For 4 Adding 0 couns of value 5
+5about to output [10, 10, 10, 10, 10, 10, 10, 10, 10]
+Starting with 0
+!For 0 Adding 0 couns of value 25
+!For 0 Adding 0 couns of value 21
+!For 0 Adding 0 couns of value 10
+ For 0 Adding 0 couns of value 5
+ For 0 Adding 0 couns of value 1
+about to output []
+Starting with 23
+"For 23 Adding 0 couns of value 50
+"For 23 Adding 1 couns of value 20
+!For 3 Adding 0 couns of value 15
+ For 3 Adding 0 couns of value 4
+ For 3 Adding 3 couns of value 1
+about to output [1, 1, 1, 20]
+Starting with 63
+"For 63 Adding 2 couns of value 25
+"For 13 Adding 0 couns of value 21
+"For 13 Adding 1 couns of value 10
+ For 3 Adding 0 couns of value 5
+ For 3 Adding 3 couns of value 1
+&about to output [1, 1, 1, 10, 25, 25]
+Starting with 3
+!For 3 Adding 0 couns of value 10
+ For 3 Adding 0 couns of value 5
+about to output []
+Starting with 21
+"For 21 Adding 0 couns of value 50
+"For 21 Adding 1 couns of value 20
+!For 1 Adding 0 couns of value 10
+ For 1 Adding 0 couns of value 5
+ For 1 Adding 0 couns of value 2
+about to output [20]
+Starting with 25
+#For 25 Adding 0 couns of value 100
+"For 25 Adding 1 couns of value 25
+!For 0 Adding 0 couns of value 10
+ For 0 Adding 0 couns of value 5
+ For 0 Adding 0 couns of value 1
+about to output [25]
+	Starting with 999
+	$For 999 Adding 9 couns of value 100
+	"For 99 Adding 1 couns of value 50
+	"For 49 Adding 2 couns of value 20
+	!For 9 Adding 0 couns of value 10
+	 For 9 Adding 1 couns of value 5
+	 For 4 Adding 2 couns of value 2
+	 For 0 Adding 0 couns of value 1
+	Sabout to output [2, 2, 5, 20, 20, 50, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+
+Starting with 15
+
+#For 15 Adding 0 couns of value 100
+
+"For 15 Adding 0 couns of value 25
+
+"For 15 Adding 1 couns of value 10
+
+ For 5 Adding 1 couns of value 5
+
+ For 0 Adding 0 couns of value 1
+
+about to output [5, 10]
+Starting with 27
+!For 27 Adding 5 couns of value 5
+ For 2 Adding 0 couns of value 4
+ about to output [5, 5, 5, 5, 5]
