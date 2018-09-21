@@ -1,9 +1,8 @@
 class Anagram(val seed:String) {
-    fun match(l:List<String>): Set<String> { return l.filter() { s -> match(s) }.toSet() }
-    fun match(s: String): Boolean { 
-        return when {
-            s.toLowerCase() == seed.toLowerCase() -> false
-            else -> s.toLowerCase().toCharArray().sorted() == seed.toLowerCase().toCharArray().sorted() 
-        }
-    }
+    val lcase = seed.toLowerCase()
+    val sorted = lcase.toCharArray().sorted()
+    fun match(l:List<String>): Set<String> { return l.filter() { s -> when {
+        s.toLowerCase() == lcase -> false
+        else -> s.toLowerCase().toCharArray().sorted() == sorted 
+    }}.toSet() }
 }

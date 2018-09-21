@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AnagramTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2018-09-21T17:20:01" hostname="raymonds-mbp.lan" time="0.044">
+<testsuite name="AnagramTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2018-09-21T17:23:00" hostname="raymonds-mbp.lan" time="0.037">
   <properties/>
-  <testcase name="doesNotDetectAnagramSubsets" classname="AnagramTest" time="0.036"/>
+  <testcase name="doesNotDetectAnagramSubsets" classname="AnagramTest" time="0.029"/>
   <testcase name="detectsTwoAnagrams" classname="AnagramTest" time="0.002"/>
-  <testcase name="detectsAnagramsCaseInsensitively" classname="AnagramTest" time="0.001"/>
+  <testcase name="detectsAnagramsCaseInsensitively" classname="AnagramTest" time="0.0"/>
   <testcase name="doesNotDetectIdenticalUppercasedWordAsAnagram" classname="AnagramTest" time="0.0"/>
-  <testcase name="doesNotDetectIdenticalWordAsAnagram" classname="AnagramTest" time="0.001"/>
+  <testcase name="doesNotDetectIdenticalWordAsAnagram" classname="AnagramTest" time="0.0"/>
   <testcase name="doesNotDetectNonAnagramsWithIdenticalChecksums" classname="AnagramTest" time="0.0"/>
   <testcase name="detectsAnagramsUsingCaseInsensitiveCandidates" classname="AnagramTest" time="0.0"/>
   <testcase name="anagramsMustUseAllLettersExactlyOnce" classname="AnagramTest" time="0.0"/>
-  <testcase name="doesNotDetectAnAnagramIfTheOriginalWordIsRepeated" classname="AnagramTest" time="0.0"/>
+  <testcase name="doesNotDetectAnAnagramIfTheOriginalWordIsRepeated" classname="AnagramTest" time="0.001"/>
   <testcase name="doesNotDetectFalsePositives" classname="AnagramTest" time="0.0"/>
   <testcase name="detectsThreeAnagrams" classname="AnagramTest" time="0.0"/>
   <testcase name="detectsAnagramsUsingCaseInsensitiveSubject" classname="AnagramTest" time="0.0"/>
-  <testcase name="detectsLongerAnagram" classname="AnagramTest" time="0.001"/>
+  <testcase name="detectsLongerAnagram" classname="AnagramTest" time="0.0"/>
   <testcase name="noMatches" classname="AnagramTest" time="0.0"/>
   <testcase name="detectsSimpleAnagram" classname="AnagramTest" time="0.0"/>
-  <testcase name="doesNotDetectIdenticalWordWithMixedCasingAsAnagram" classname="AnagramTest" time="0.0"/>
+  <testcase name="doesNotDetectIdenticalWordWithMixedCasingAsAnagram" classname="AnagramTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
