@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="NumberSpellerTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2018-09-22T16:36:20" hostname="raymonds-mbp.lan" time="0.035">
+<testsuite name="NumberSpellerTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2018-09-22T17:12:05" hostname="raymonds-mbp.lan" time="0.038">
   <properties/>
-  <testcase name="test1IsSpelledCorrectly" classname="NumberSpellerTest" time="0.022"/>
-  <testcase name="test1000000000IsSpelledCorrectly" classname="NumberSpellerTest" time="0.001"/>
+  <testcase name="test1IsSpelledCorrectly" classname="NumberSpellerTest" time="0.026"/>
+  <testcase name="test1000000000IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0"/>
   <testcase name="test14IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0"/>
   <testcase name="test0IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0"/>
   <testcase name="test1000IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0"/>
-  <testcase name="testNegativeNumbersAreOutOfRange" classname="NumberSpellerTest" time="0.007"/>
+  <testcase name="testNegativeNumbersAreOutOfRange" classname="NumberSpellerTest" time="0.008"/>
   <testcase name="test1234IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0"/>
   <testcase name="test22IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0"/>
   <testcase name="test100IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0"/>
   <testcase name="test1002345IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0"/>
-  <testcase name="test123IsSpelledCorrectly" classname="NumberSpellerTest" time="0.001"/>
+  <testcase name="test123IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0"/>
   <testcase name="testNumbersAbove1000000000000AreOutOfRange" classname="NumberSpellerTest" time="0.0"/>
   <testcase name="test987654321123IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0"/>
   <testcase name="test1000000IsSpelledCorrectly" classname="NumberSpellerTest" time="0.0"/>

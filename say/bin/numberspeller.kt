@@ -30,11 +30,11 @@ class NumberSpeller() {
             in 70..79 -> "seventy" + say(source % 10, true, "-")
             in 80..89 -> "eighty" + say(source % 10, true, "-")
             in 90..99 -> "ninety" + say(source % 10, true, "-")
-            in 100..999 -> say(source / 100, true, prepend) + " hundred " + say(source % 100, true)
-            in 1000..999999 -> say(source / 1000, true, "") + " thousand " + say(source % 1000, true)
-            in 1000000..999999999 -> say(source / 1000000, true, "") + " million " + say(source % 1000000, true)
-            in 1000000000..999999999999 -> say(source / 1000000000, true, "") + " billion " + say(source % 1000000000, true)
+            in 100..999 -> say(source / 100, true) + " hundred " + say(source % 100, true)
+            in 1000..999999 -> say(source / 1000, true) + " thousand " + say(source % 1000, true)
+            in 1000000..999999999 -> say(source / 1000000, true) + " million " + say(source % 1000000, true)
+            in 1000000000..999999999999 -> say(source / 1000000000, true) + " billion " + say(source % 1000000000, true)
             else -> throw IllegalArgumentException("Input must be less than 1000000000000")
-       
-    }.trim()}
+        }.trim()
+    }
 }
