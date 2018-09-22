@@ -76,8 +76,7 @@ class ForthEvaluator( ) {
                             l.add(i)
                         }
                         else -> {
-                            val i = w.toIntOrNull()
-                            if(i == null) throw IllegalArgumentException("No definition available for operator \"${w}\"")
+                            val i = w.toIntOrNull() ?: throw IllegalArgumentException("No definition available for operator \"${w}\"")
                             l.add(i)
                         }
                     }

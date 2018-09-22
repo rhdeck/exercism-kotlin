@@ -23,8 +23,6 @@ data class ComplexNumber(val real: Double = 0.0, val imag: Double = 0.0) {
     fun conjugate(): ComplexNumber {
         return ComplexNumber(real=this.real, imag=this.imag * -1)
     }
-
-
 }
 fun exponential(c: ComplexNumber) : ComplexNumber {
     //Natural log to the exponent we have designated

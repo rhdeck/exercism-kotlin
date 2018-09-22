@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LuhnTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2018-09-22T13:28:45" hostname="raymonds-mbp.lan" time="0.031">
+  <properties/>
+  <testcase name="singleZeroWithSpaceIsInvalid" classname="LuhnTest" time="0.023"/>
+  <testcase name="validStringsWithPunctuationIncludedBecomeInvalid" classname="LuhnTest" time="0.0"/>
+  <testcase name="moreThanSingleZeroIsValid" classname="LuhnTest" time="0.003"/>
+  <testcase name="singleDigitStringsCannotBeValid" classname="LuhnTest" time="0.0"/>
+  <testcase name="inputDigit9IsCorrectlyConvertedToOutputDigit9" classname="LuhnTest" time="0.0"/>
+  <testcase name="validStringsWithNonDigitIncludedBecomeInvalid" classname="LuhnTest" time="0.0"/>
+  <testcase name="validCanadianSIN" classname="LuhnTest" time="0.0"/>
+  <testcase name="simpleValidSINThatBecomesInvalidIfReversed" classname="LuhnTest" time="0.0"/>
+  <testcase name="invalidCreditCard" classname="LuhnTest" time="0.0"/>
+  <testcase name="validStringsWithSymbolsIncludedBecomeInvalid" classname="LuhnTest" time="0.0"/>
+  <testcase name="simpleValidSINThatRemainsValidIfReversed" classname="LuhnTest" time="0.0"/>
+  <testcase name="singleZeroIsInvalid" classname="LuhnTest" time="0.001"/>
+  <testcase name="invalidCanadianSIN" classname="LuhnTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="IncorrectKeyCipherTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2018-09-19T13:00:48" hostname="raymonds-mbp.lan" time="0.007">
+<testsuite name="IncorrectKeyCipherTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2018-09-21T23:48:12" hostname="raymonds-mbp.lan" time="0.007">
   <properties/>
   <testcase name="cipherThrowsWithEmptyKey" classname="IncorrectKeyCipherTest" time="0.0"/>
   <testcase name="cipherThrowsWithAnyNumericKey" classname="IncorrectKeyCipherTest" time="0.0"/>
   <testcase name="cipherThrowsWithAllCapsKey" classname="IncorrectKeyCipherTest" time="0.001"/>
   <testcase name="cipherThrowsWithNumericKey" classname="IncorrectKeyCipherTest" time="0.0"/>
   <testcase name="cipherThrowsWithAnyCapsKey" classname="IncorrectKeyCipherTest" time="0.0"/>
-  <testcase name="cipherThrowsWithEmptyKey" classname="IncorrectKeyCipherTest" time="0.0"/>
+  <testcase name="cipherThrowsWithEmptyKey" classname="IncorrectKeyCipherTest" time="0.001"/>
   <testcase name="cipherThrowsWithAnyNumericKey" classname="IncorrectKeyCipherTest" time="0.0"/>
   <testcase name="cipherThrowsWithAllCapsKey" classname="IncorrectKeyCipherTest" time="0.0"/>
   <testcase name="cipherThrowsWithNumericKey" classname="IncorrectKeyCipherTest" time="0.0"/>

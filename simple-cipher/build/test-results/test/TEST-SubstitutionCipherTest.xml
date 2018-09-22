@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SubstitutionCipherTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2018-09-19T13:00:48" hostname="raymonds-mbp.lan" time="0.023">
+<testsuite name="SubstitutionCipherTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2018-09-21T23:48:12" hostname="raymonds-mbp.lan" time="0.066">
   <properties/>
-  <testcase name="cipherCanDecodeMessageThatIsShorterThanTheKey" classname="SubstitutionCipherTest" time="0.003"/>
-  <testcase name="cipherCanDoubleShiftEncode" classname="SubstitutionCipherTest" time="0.001"/>
+  <testcase name="cipherCanDecodeMessageThatIsShorterThanTheKey" classname="SubstitutionCipherTest" time="0.036"/>
+  <testcase name="cipherCanDoubleShiftEncode" classname="SubstitutionCipherTest" time="0.0"/>
   <testcase name="cipherCanEncodeMessageThatIsShorterThanTheKey" classname="SubstitutionCipherTest" time="0.0"/>
-  <testcase name="cipherCanEncodeWithGivenKey" classname="SubstitutionCipherTest" time="0.0"/>
+  <testcase name="cipherCanEncodeWithGivenKey" classname="SubstitutionCipherTest" time="0.001"/>
   <testcase name="cipherKeepsTheSubmittedKey" classname="SubstitutionCipherTest" time="0.0"/>
   <testcase name="cipherCanDecodeWithGivenKey" classname="SubstitutionCipherTest" time="0.0"/>
-  <testcase name="cipherIsReversibleGivenKey" classname="SubstitutionCipherTest" time="0.0"/>
+  <testcase name="cipherIsReversibleGivenKey" classname="SubstitutionCipherTest" time="0.001"/>
   <testcase name="cipherCanWrapEncode" classname="SubstitutionCipherTest" time="0.0"/>
   <testcase name="cipherCanDecodeMessageThatIsShorterThanTheKey" classname="SubstitutionCipherTest" time="0.001"/>
   <testcase name="cipherCanDoubleShiftEncode" classname="SubstitutionCipherTest" time="0.0"/>
   <testcase name="cipherCanEncodeMessageThatIsShorterThanTheKey" classname="SubstitutionCipherTest" time="0.0"/>
-  <testcase name="cipherCanEncodeWithGivenKey" classname="SubstitutionCipherTest" time="0.001"/>
+  <testcase name="cipherCanEncodeWithGivenKey" classname="SubstitutionCipherTest" time="0.0"/>
   <testcase name="cipherKeepsTheSubmittedKey" classname="SubstitutionCipherTest" time="0.0"/>
   <testcase name="cipherCanDecodeWithGivenKey" classname="SubstitutionCipherTest" time="0.0"/>
   <testcase name="cipherIsReversibleGivenKey" classname="SubstitutionCipherTest" time="0.0"/>

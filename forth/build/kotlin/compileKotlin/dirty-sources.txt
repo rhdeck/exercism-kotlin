@@ -1,1 +1,0 @@
-/Users/ray/Exercism/kotlin/forth/src/main/kotlin/forth.kt
