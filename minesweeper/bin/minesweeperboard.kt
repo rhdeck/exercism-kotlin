@@ -38,15 +38,12 @@ class MinesweeperBoard(val board: List<String>) {
     private fun checkRow(rowNumber: Int, columnNumber: Int): Int = ((columnNumber - 1)..(columnNumber + 1)).fold(0) { o, thisColumn -> 
         o + checkCell(rowNumber, thisColumn)
     }
-    private fun checkCell(rowNumber: Int, columnNumber: Int): Int {
-        val t = when {
-            rowNumber !in (0..(height -1)) -> 0
-            columnNumber !in (0..(width -1)) -> 0
-            else -> when (asArray.elementAt(rowNumber)[columnNumber]) {
-                '*'-> 1 
-                else -> 0
-            }
+    private fun checkCell(rowNumber: Int, columnNumber: Int): Int = when {
+        rowNumber !in (0..(height -1)) -> 0
+        columnNumber !in (0..(width -1)) -> 0
+        else -> when (asArray.elementAt(rowNumber)[columnNumber]) {
+            '*'-> 1 
+            else -> 0
         }
-        return t
     }
 }

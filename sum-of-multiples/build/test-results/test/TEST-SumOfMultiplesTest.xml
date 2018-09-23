@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SumOfMultiplesTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2018-09-23T14:55:35" hostname="raymonds-mbp.lan" time="0.041">
+  <properties/>
+  <testcase name="multiples of 1 up to 100" classname="SumOfMultiplesTest" time="0.02"/>
+  <testcase name="multiples of 5 or 25 up to 51" classname="SumOfMultiplesTest" time="0.016"/>
+  <testcase name="multiples of 3 or 5 up to 1" classname="SumOfMultiplesTest" time="0.001"/>
+  <testcase name="multiples of 3 or 5 up to 4" classname="SumOfMultiplesTest" time="0.0"/>
+  <testcase name="multiples of 3 or 5 up to 10" classname="SumOfMultiplesTest" time="0.0"/>
+  <testcase name="multiples of 3 or 5 up to 1000" classname="SumOfMultiplesTest" time="0.001"/>
+  <testcase name="multiples of 3 or 5 up to 100" classname="SumOfMultiplesTest" time="0.0"/>
+  <testcase name="multiples of an empty set up to 10000" classname="SumOfMultiplesTest" time="0.0"/>
+  <testcase name="multiples of 4 or 6 up to 15" classname="SumOfMultiplesTest" time="0.0"/>
+  <testcase name="multiples of 7, 13 or 17 up to 20" classname="SumOfMultiplesTest" time="0.001"/>
+  <testcase name="multiples of 5, 6 or 8 up to 150" classname="SumOfMultiplesTest" time="0.0"/>
+  <testcase name="multiples of 3 up to 7" classname="SumOfMultiplesTest" time="0.0"/>
+  <testcase name="multiples of 43 or 47 up to 10000" classname="SumOfMultiplesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
