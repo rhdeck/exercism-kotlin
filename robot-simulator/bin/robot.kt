@@ -4,7 +4,7 @@ class Robot(var gridPosition: GridPosition = GridPosition(0,0), var orientation:
     // Terse, mathy answer
     fun advance() { gridPosition = GridPosition(
         gridPosition.x + orientation.ordinal % 2 * Math.pow(-1.0, (orientation.ordinal / 2).toDouble()).toInt(), 
-        gridPosition.y + (orientation.ordinal % 2 -1) * Math.pow(-1.0, (orientation.ordinal / 2 + 1).toDouble()).toInt()
+        gridPosition.y + (orientation.ordinal % 2 -1) * Math.pow(-1.0, (orientation.ordinal / 2 - 1).toDouble()).toInt()
     )}
     // Old, less-mathy answer
     // when (orientation) {

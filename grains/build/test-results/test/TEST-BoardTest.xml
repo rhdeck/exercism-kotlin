@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BoardTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2018-09-24T20:26:43" hostname="raymonds-mbp.lan" time="0.028">
+  <properties/>
+  <testcase name="testSquare32ContainsCorrectNumberOfGrains" classname="BoardTest" time="0.014"/>
+  <testcase name="testSquare64ContainsCorrectNumberOfGrains" classname="BoardTest" time="0.0"/>
+  <testcase name="testNegativeSquareIsInvalid" classname="BoardTest" time="0.006"/>
+  <testcase name="testSquareGreaterThan64IsInvalid" classname="BoardTest" time="0.0"/>
+  <testcase name="testSquare0IsInvalid" classname="BoardTest" time="0.001"/>
+  <testcase name="testSquare1ContainsCorrectNumberOfGrains" classname="BoardTest" time="0.0"/>
+  <testcase name="testSquare2ContainsCorrectNumberOfGrains" classname="BoardTest" time="0.0"/>
+  <testcase name="testSquare3ContainsCorrectNumberOfGrains" classname="BoardTest" time="0.0"/>
+  <testcase name="testSquare4ContainsCorrectNumberOfGrains" classname="BoardTest" time="0.001"/>
+  <testcase name="testBoardContainsCorrectNumberOfGrains" classname="BoardTest" time="0.006"/>
+  <testcase name="testSquare16ContainsCorrectNumberOfGrains" classname="BoardTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
