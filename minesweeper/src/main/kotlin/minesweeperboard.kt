@@ -23,12 +23,12 @@ class MinesweeperBoard(val board: List<String>) {
                 when { 
                     cellChar == '*' -> '*'
                     else -> {
-                        val i = ((rowNumber -1)..(rowNumber + 1)).fold(0) { o, rowNum -> 
+                        val i = ((rowNumber -1)..(rowNumber + 1)).fold(0) { o, thisRow -> 
                             o + ((columnNumber - 1)..(columnNumber + 1)).fold(0) { o, thisColumn -> 
                                 o + when {
-                                    rowNum !in (0..(height -1)) -> 0
+                                    thisRow !in (0..(height -1)) -> 0
                                     thisColumn !in (0..(width -1)) -> 0
-                                    else -> when (asArray.elementAt(rowNum)[thisColumn]) {
+                                    else -> when (asArray.elementAt(thisRow)[thisColumn]) {
                                         '*'-> 1 
                                         else -> 0
                                     }
