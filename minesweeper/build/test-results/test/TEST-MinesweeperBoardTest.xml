@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MinesweeperBoardTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2018-09-23T12:55:37" hostname="raymonds-mbp.lan" time="0.044">
+<testsuite name="MinesweeperBoardTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2018-09-25T21:57:37" hostname="raymonds-mbp.lan" time="0.043">
   <properties/>
-  <testcase name="testInputBoardWithNoRowsAndNoColumns" classname="MinesweeperBoardTest" time="0.017"/>
-  <testcase name="testInputBoardWithSingleColumnAndTwoMinesAtEdges" classname="MinesweeperBoardTest" time="0.023"/>
+  <testcase name="testInputBoardWithNoRowsAndNoColumns" classname="MinesweeperBoardTest" time="0.016"/>
+  <testcase name="testInputBoardWithSingleColumnAndTwoMinesAtEdges" classname="MinesweeperBoardTest" time="0.022"/>
   <testcase name="testInputBoardWithSingleColumnAndTwoMines" classname="MinesweeperBoardTest" time="0.0"/>
   <testcase name="testInputBoardWithOnlyMines" classname="MinesweeperBoardTest" time="0.0"/>
   <testcase name="testInputBoardWithMinesInCross" classname="MinesweeperBoardTest" time="0.001"/>
   <testcase name="testInputBoardWithMinesAroundPerimeter" classname="MinesweeperBoardTest" time="0.0"/>
   <testcase name="testInputBoardWithSingleMineAtCenter" classname="MinesweeperBoardTest" time="0.0"/>
   <testcase name="testInputBoardWithNoMines" classname="MinesweeperBoardTest" time="0.0"/>
-  <testcase name="testInputBoardWithOneRowAndNoColumns" classname="MinesweeperBoardTest" time="0.0"/>
+  <testcase name="testInputBoardWithOneRowAndNoColumns" classname="MinesweeperBoardTest" time="0.001"/>
   <testcase name="testLargeInputBoard" classname="MinesweeperBoardTest" time="0.0"/>
   <testcase name="testInputBoardWithSingleRowAndTwoMinesAtEdges" classname="MinesweeperBoardTest" time="0.0"/>
   <testcase name="testInputBoardWithSingleRowAndTwoMines" classname="MinesweeperBoardTest" time="0.0"/>

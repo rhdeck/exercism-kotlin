@@ -24,7 +24,16 @@ class MinesweeperBoard(val board: List<String>) {
                     cellChar == '*' -> '*'
                     else -> {
                         val i = ((rowNumber -1)..(rowNumber + 1)).fold(0) { o, rowNum -> 
-                            o + checkRow(rowNum, columnNumber)
+                            o + ((columnNumber - 1)..(columnNumber + 1)).fold(0) { o, thisColumn -> 
+                                o + when {
+                                    rowNum !in (0..(height -1)) -> 0
+                                    thisColumn !in (0..(width -1)) -> 0
+                                    else -> when (asArray.elementAt(rowNum)[thisColumn]) {
+                                        '*'-> 1 
+                                        else -> 0
+                                    }
+                                }
+                            }
                         }
                         when {
                             i == 0 -> ' '
@@ -33,17 +42,6 @@ class MinesweeperBoard(val board: List<String>) {
                     }
                 }
             }.joinToString("")
-        }
-    }
-    private fun checkRow(rowNumber: Int, columnNumber: Int): Int = ((columnNumber - 1)..(columnNumber + 1)).fold(0) { o, thisColumn -> 
-        o + checkCell(rowNumber, thisColumn)
-    }
-    private fun checkCell(rowNumber: Int, columnNumber: Int): Int = when {
-        rowNumber !in (0..(height -1)) -> 0
-        columnNumber !in (0..(width -1)) -> 0
-        else -> when (asArray.elementAt(rowNumber)[columnNumber]) {
-            '*'-> 1 
-            else -> 0
         }
     }
 }
