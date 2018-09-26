@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PrimeTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-09-26T19:15:55" hostname="raymonds-mbp.lan" time="2.393">
+  <properties/>
+  <testcase name="undefinedPrime" classname="PrimeTest" time="0.011"/>
+  <testcase name="sixthPrime" classname="PrimeTest" time="0.015"/>
+  <testcase name="firstPrime" classname="PrimeTest" time="0.001"/>
+  <testcase name="secondPrime" classname="PrimeTest" time="0.0"/>
+  <testcase name="bigPrime" classname="PrimeTest" time="2.366"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
