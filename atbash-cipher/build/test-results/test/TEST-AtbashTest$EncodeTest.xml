@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AtbashTest$EncodeTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-09-26T12:40:37" hostname="raymonds-mbp.lan" time="0.022">
+  <properties/>
+  <testcase name="test[0]" classname="AtbashTest$EncodeTest" time="0.019"/>
+  <testcase name="test[1]" classname="AtbashTest$EncodeTest" time="0.0"/>
+  <testcase name="test[2]" classname="AtbashTest$EncodeTest" time="0.0"/>
+  <testcase name="test[3]" classname="AtbashTest$EncodeTest" time="0.0"/>
+  <testcase name="test[4]" classname="AtbashTest$EncodeTest" time="0.001"/>
+  <testcase name="test[5]" classname="AtbashTest$EncodeTest" time="0.0"/>
+  <testcase name="test[6]" classname="AtbashTest$EncodeTest" time="0.0"/>
+  <testcase name="test[7]" classname="AtbashTest$EncodeTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
