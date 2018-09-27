@@ -18,7 +18,7 @@ class MatrixTest {
         assertEquals(expectedSaddlePoints, matrix.saddlePoints)
     }
 
-    @Ignore
+    //@Ignore
     @Test
     fun testCanIdentifyThatEmptyMatrixHasNoSaddlePoints() {
         val matrix = Matrix(listOf(emptyList()))
@@ -28,7 +28,7 @@ class MatrixTest {
         assertEquals(expectedSaddlePoints, matrix.saddlePoints)
     }
 
-    @Ignore
+    //@Ignore
     @Test
     fun testCanIdentifyLackOfSaddlePointsWhenThereAreNone() {
         val matrix = Matrix(listOf(
@@ -42,7 +42,7 @@ class MatrixTest {
         assertEquals(expectedSaddlePoints, matrix.saddlePoints)
     }
 
-    @Ignore
+    //@Ignore
     @Test
     fun testCanIdentifyMultipleSaddlePoints() {
         val matrix = Matrix(listOf(
@@ -60,7 +60,7 @@ class MatrixTest {
         assertEquals(expectedSaddlePoints, matrix.saddlePoints)
     }
 
-    @Ignore
+    //@Ignore
     @Test
     fun testCanIdentifySaddlePointInBottomRightCorner() {
         val matrix = Matrix(listOf(
