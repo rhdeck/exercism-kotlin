@@ -1,1 +1,0 @@
-/Users/ray/Exercism/kotlin/pig-latin/src/main/kotlin/piglatin.kt

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PigLatinTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2018-09-28T13:32:31" hostname="raymonds-mbp.lan" time="0.03">
+<testsuite name="PigLatinTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2018-09-28T13:59:09" hostname="raymonds-mbp.lan" time="0.035">
   <properties/>
-  <testcase name="test[0: translate(Apple)=Appleay]" classname="PigLatinTest" time="0.019"/>
+  <testcase name="test[0: translate(Apple)=Appleay]" classname="PigLatinTest" time="0.023"/>
   <testcase name="test[1: translate(ear)=earay]" classname="PigLatinTest" time="0.001"/>
   <testcase name="test[2: translate(igloo)=iglooay]" classname="PigLatinTest" time="0.0"/>
   <testcase name="test[3: translate(object)=objectay]" classname="PigLatinTest" time="0.0"/>
@@ -13,7 +13,7 @@
   <testcase name="test[9: translate(qat)=atqay]" classname="PigLatinTest" time="0.0"/>
   <testcase name="test[10: translate(chair)=airchay]" classname="PigLatinTest" time="0.0"/>
   <testcase name="test[11: translate(queen)=eenquay]" classname="PigLatinTest" time="0.0"/>
-  <testcase name="test[12: translate(square)=aresquay]" classname="PigLatinTest" time="0.001"/>
+  <testcase name="test[12: translate(square)=aresquay]" classname="PigLatinTest" time="0.0"/>
   <testcase name="test[13: translate(therapy)=erapythay]" classname="PigLatinTest" time="0.0"/>
   <testcase name="test[14: translate(thrush)=ushthray]" classname="PigLatinTest" time="0.0"/>
   <testcase name="test[15: translate(school)=oolschay]" classname="PigLatinTest" time="0.001"/>
@@ -21,7 +21,7 @@
   <testcase name="test[17: translate(xray)=xrayay]" classname="PigLatinTest" time="0.0"/>
   <testcase name="test[18: translate(yellow)=ellowyay]" classname="PigLatinTest" time="0.0"/>
   <testcase name="test[19: translate(rhythm)=ythmrhay]" classname="PigLatinTest" time="0.0"/>
-  <testcase name="test[20: translate(my)=ymay]" classname="PigLatinTest" time="0.0"/>
+  <testcase name="test[20: translate(my)=ymay]" classname="PigLatinTest" time="0.001"/>
   <testcase name="test[21: translate(quick fast run)=ickquay astfay unray]" classname="PigLatinTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
