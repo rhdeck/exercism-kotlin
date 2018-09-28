@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PhoneNumberTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2018-09-28T19:35:06" hostname="raymonds-mbp.lan" time="0.035">
+  <properties/>
+  <testcase name="invalidWhen9Digits" classname="PhoneNumberTest" time="0.018"/>
+  <testcase name="invalidWithInvalidPunctuation" classname="PhoneNumberTest" time="0.0"/>
+  <testcase name="invalidWhenExchangeCodeStartsWith0or1" classname="PhoneNumberTest" time="0.014"/>
+  <testcase name="invalidWhenMoreThan11Digits" classname="PhoneNumberTest" time="0.0"/>
+  <testcase name="invalidWhenAreaCodeStartsWith0or1" classname="PhoneNumberTest" time="0.0"/>
+  <testcase name="cleansNumberWithMultipleSpaces" classname="PhoneNumberTest" time="0.0"/>
+  <testcase name="invalidWhen11DigitsAndFirstIsNot1" classname="PhoneNumberTest" time="0.0"/>
+  <testcase name="invalidWithLetters" classname="PhoneNumberTest" time="0.001"/>
+  <testcase name="cleansNumberWithDots" classname="PhoneNumberTest" time="0.0"/>
+  <testcase name="cleansNumber" classname="PhoneNumberTest" time="0.0"/>
+  <testcase name="validWhen11DigitsAndFirstIs1" classname="PhoneNumberTest" time="0.0"/>
+  <testcase name="validWhen11DigitsAndFirstIs1WithPunctuation" classname="PhoneNumberTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
