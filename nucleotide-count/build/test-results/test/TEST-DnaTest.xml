@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DnaTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-09-28T19:46:46" hostname="raymonds-mbp.lan" time="0.019">
+  <properties/>
+  <testcase name="validatesNucleotides" classname="DnaTest" time="0.005"/>
+  <testcase name="canCountMultipleNucleotides" classname="DnaTest" time="0.013"/>
+  <testcase name="canCountOneNucleotideInSingleCharacterInput" classname="DnaTest" time="0.001"/>
+  <testcase name="emptyDnaStringHasNoNucleotides" classname="DnaTest" time="0.0"/>
+  <testcase name="canCountRepeatedNucleotide" classname="DnaTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
