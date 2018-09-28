@@ -1,0 +1,18 @@
+e: /Users/ray/Exercism/kotlin/pig-latin/src/main/kotlin/piglatin.kt: (6, 13): Incompatible types: Char and String
+e: /Users/ray/Exercism/kotlin/pig-latin/src/main/kotlin/piglatin.kt: (6, 13): Too many characters in a character literal ''xr''
+e: /Users/ray/Exercism/kotlin/pig-latin/src/main/kotlin/piglatin.kt: (6, 19): Incompatible types: Char and String
+e: /Users/ray/Exercism/kotlin/pig-latin/src/main/kotlin/piglatin.kt: (6, 19): Too many characters in a character literal ''yt''
+e: /Users/ray/Exercism/kotlin/pig-latin/src/main/kotlin/piglatin.kt: (6, 34): Too many characters in a character literal ''ay''
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileKotlin'.
+> Compilation error. See log for more details
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 0s
