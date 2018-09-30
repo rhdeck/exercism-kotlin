@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SpiralMatrixTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-09-30T11:49:54" hostname="raymonds-mbp.lan" time="0.021">
+<testsuite name="SpiralMatrixTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-09-30T12:16:19" hostname="raymonds-mbp.lan" time="0.027">
   <properties/>
   <testcase name="testTrivialSpiral" classname="SpiralMatrixTest" time="0.003"/>
-  <testcase name="testSpiralOfSize2" classname="SpiralMatrixTest" time="0.017"/>
+  <testcase name="testSpiralOfSize2" classname="SpiralMatrixTest" time="0.022"/>
   <testcase name="testSpiralOfSize3" classname="SpiralMatrixTest" time="0.0"/>
   <testcase name="testSpiralOfSize4" classname="SpiralMatrixTest" time="0.0"/>
-  <testcase name="testSpiralOfSize5" classname="SpiralMatrixTest" time="0.0"/>
+  <testcase name="testSpiralOfSize5" classname="SpiralMatrixTest" time="0.001"/>
   <testcase name="testEmptySpiral" classname="SpiralMatrixTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

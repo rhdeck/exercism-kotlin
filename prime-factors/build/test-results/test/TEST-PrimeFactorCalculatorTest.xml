@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PrimeFactorCalculatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-09-30T22:12:01" hostname="raymonds-mbp.lan" time="0.033">
+  <properties/>
+  <testcase name="testThat1HasNoPrimeFactors" classname="PrimeFactorCalculatorTest" time="0.017"/>
+  <testcase name="testThatASquareOfAPrimeHasExactlyOnePrimeFactorRepeatedTwice" classname="PrimeFactorCalculatorTest" time="0.013"/>
+  <testcase name="testThatAProductOfPrimesAndNonPrimesIsFactoredProperly" classname="PrimeFactorCalculatorTest" time="0.0"/>
+  <testcase name="testThatAPrimeNumberHasExactlyOnePrimeFactor" classname="PrimeFactorCalculatorTest" time="0.0"/>
+  <testcase name="testThatACubeOfAPrimeHasExactlyOnePrimeFactorRepeatedThreeTimes" classname="PrimeFactorCalculatorTest" time="0.0"/>
+  <testcase name="testThatAProductOfSmallPrimesIsFactoredProperly" classname="PrimeFactorCalculatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

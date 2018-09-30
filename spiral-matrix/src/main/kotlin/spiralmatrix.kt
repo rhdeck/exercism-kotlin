@@ -1,6 +1,5 @@
 package SpiralMatrix
 data class position(val x: Int, val y: Int) 
-
 val directions = arrayOf(
     position(1,0),
     position(0,1),
