@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PascalsTriangleTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2018-10-05T13:38:42" hostname="raymonds-mbp.lan" time="0.041">
+  <properties/>
+  <testcase name="threeRows" classname="PascalsTriangleTest" time="0.031"/>
+  <testcase name="tenRows" classname="PascalsTriangleTest" time="0.0"/>
+  <testcase name="oneRow" classname="PascalsTriangleTest" time="0.0"/>
+  <testcase name="twoRows" classname="PascalsTriangleTest" time="0.0"/>
+  <testcase name="fiveRows" classname="PascalsTriangleTest" time="0.0"/>
+  <testcase name="fourRows" classname="PascalsTriangleTest" time="0.001"/>
+  <testcase name="zeroRows" classname="PascalsTriangleTest" time="0.0"/>
+  <testcase name="validatesNotNegativeRows" classname="PascalsTriangleTest" time="0.006"/>
+  <testcase name="sixRows" classname="PascalsTriangleTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
