@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SeriesTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-10-05T19:40:22" hostname="raymonds-mbp.lan" time="0.033">
+  <properties/>
+  <testcase name="slicesOfOne" classname="SeriesTest" time="0.032"/>
+  <testcase name="slicesOfTwo" classname="SeriesTest" time="0.0"/>
+  <testcase name="slicesOfThree" classname="SeriesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
