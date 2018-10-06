@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ETLTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-10-06T13:31:20" hostname="raymonds-mbp.lan" time="0.033">
+  <properties/>
+  <testcase name="multipleScoresWithMultipleLetters" classname="ETLTest" time="0.031"/>
+  <testcase name="aSingleLetter" classname="ETLTest" time="0.0"/>
+  <testcase name="multipleScoresWithDifferingNumbersOfLetters" classname="ETLTest" time="0.0"/>
+  <testcase name="singleScoreWithMultipleLetters" classname="ETLTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
