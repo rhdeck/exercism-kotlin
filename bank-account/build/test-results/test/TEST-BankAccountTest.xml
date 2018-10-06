@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BankAccountTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-10-06T12:24:57" hostname="raymonds-mbp.lan" time="2.742">
+  <properties/>
+  <testcase name="zeroBalanceWhenOpened" classname="BankAccountTest" time="0.019"/>
+  <testcase name="closedAccountCannotBeAdjusted" classname="BankAccountTest" time="0.009"/>
+  <testcase name="closedAccountHasNoBalance" classname="BankAccountTest" time="0.001"/>
+  <testcase name="concurrentBalanceAdjustments" classname="BankAccountTest" time="2.713"/>
+  <testcase name="sequentialBalanceAdjustments" classname="BankAccountTest" time="0.0"/>
+  <system-out><![CDATA[I AM SPARTACUS]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
