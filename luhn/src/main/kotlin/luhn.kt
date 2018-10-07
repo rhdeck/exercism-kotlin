@@ -15,4 +15,5 @@ fun isValid(source:String) : Boolean {
                 }
                 else -> element
             }}.fold(0) { sum, element:Int -> sum + element }  % 10 == 0 
-}}
+    }
+}
